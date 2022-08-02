@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'libNaviCore_Example' do
+  pod 'libNaviCore', :path => '../'
+
+  target 'libNaviCore_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end

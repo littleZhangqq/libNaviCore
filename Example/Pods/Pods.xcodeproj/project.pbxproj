@@ -1,0 +1,1702 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		037856CD17FA7AF0D2422B9F7CCCDB1E /* MBNaviSessionParams.h in Headers */ = {isa = PBXBuildFile; fileRef = B21E8915CC13AE982805649D8E7FAD52 /* MBNaviSessionParams.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		048D0758450A04450FC92A5EE55A406C /* MBSigninModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DEEBB7815FC81B39026EB697FA4F5BC /* MBSigninModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05F7E2B520B345F9D8079D81B4587767 /* MBData.h in Headers */ = {isa = PBXBuildFile; fileRef = CE9156325AFA20E9CC0DF14B1F96F3BA /* MBData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08B5B134CB6D948F28D89A0BA05098F7 /* MBHighwayGuide.h in Headers */ = {isa = PBXBuildFile; fileRef = 254A65B780FC4D51D95D4FECED90ECB8 /* MBHighwayGuide.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7D14EE91D16468687A16A8E2396BA8 /* MBImNaviLogic.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B60C299F0E2F526C8EF9B9F178D542E /* MBImNaviLogic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D82CE1864D3FEA019BFE9ACB2CFCEF0 /* MBPoiSearchSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 94307DA1D0EF67B03D1709DB2E343CD2 /* MBPoiSearchSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0FAEA2EC1A54C1779AD021A0823F340F /* MBPoiFavorites.h in Headers */ = {isa = PBXBuildFile; fileRef = 81694AC097217D0D7FF02B8B611D62A9 /* MBPoiFavorites.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0FF6BF9353089E66B8F0382C5891455A /* MBCircleOverlay.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CA4AEACB173F925FFDCA8FD9D1E8ADA /* MBCircleOverlay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1549CFCF1AF0E1F69E195D21B9E9D4D2 /* MBPoiSearchRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 1ED48C94E5DAA25D7754D4C0C4614727 /* MBPoiSearchRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15C547EE95C9125F55AAF0AB55FB500F /* iNaviCore in Sources */ = {isa = PBXBuildFile; fileRef = 8186C3F26890CFF67380215B251893C0 /* iNaviCore */; };
+		165B81871D58B8873D3F757D2506C68C /* MBNaviCoreEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = B9379CB952D7A384DDAFD2850B02A58D /* MBNaviCoreEngine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16B6868462F924FC6D66FF73F3DCECA1 /* MBEnroutePoiSearchSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 66058B4D4B002C410B0553826B25178A /* MBEnroutePoiSearchSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		172102380928384CE5325E6F6ED1BB05 /* MBSoundArbiter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DD2C3EE31C5A81C51E6BA9FDC1FE5C9 /* MBSoundArbiter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		178B498CF1846726DF526BDBCE825FFC /* MBTripRecorderV2.h in Headers */ = {isa = PBXBuildFile; fileRef = D292492D970407D181192BEC42A359E5 /* MBTripRecorderV2.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17EFC44DC413124C34A148BABBD3FDEC /* MBDataStoreBaseTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = CF362CB1A6E9298EF53C29EB54C76942 /* MBDataStoreBaseTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18A71953691B782561837C00D3D8BF7D /* MBOverlay.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E084C40134D69F9F4371704DF821070 /* MBOverlay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A25D571F4F23298A726555800662E4A /* MBReverseGeocoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BBA8A43AF4374DCEFC1DE03F04D766E /* MBReverseGeocoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1BBEDB28B4237AD2E18E4D250BCEA540 /* MBCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = CB91AA2981EC43EA187A5653890D9D80 /* MBCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C81DB6D19EBF30AC3CB4CC48ACBC926 /* MBLocationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 54798D46A8AD65D5EDAB10BD7367FDD3 /* MBLocationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CB076661976F991948E8D11D5FB9C10 /* MBSideInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = A99291D29FC4D6B3AD701BE69C3C2551 /* MBSideInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D1F21934BF02FB7540B8A6191C49487 /* MBPoi.h in Headers */ = {isa = PBXBuildFile; fileRef = EA7544BB675C3EE6BA80B62B09EFCB41 /* MBPoi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F84FE646CD1D7BAFFB58C243277AFF8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21939432255B626EE38920A76CAC7AFB /* MBAvoidanceArea.h in Headers */ = {isa = PBXBuildFile; fileRef = 66C9D3B9B3F4F49EBEFE66BF625682EA /* MBAvoidanceArea.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		230F02CBC8DDCAFD2EAC99D9A4B98425 /* libNaviCore-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A37941ED4D4E032D6CC53FC4E95B2C3 /* libNaviCore-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2373BB1F6D07B124179D721D75809D4C /* MBUserCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BE320B0E3E18DBEEEEBAF247007A4F2 /* MBUserCamera.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		253752E8EB26C0F4DA69C888C80B5D66 /* MBPoiItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CC0FA7443F7507569781CA25303F96E /* MBPoiItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2538F4EF2D3F1B8635125BF08AAB77F9 /* MBPoiSearchResultLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D0D0E103EB6FDD0B88B39E4071BFCD0 /* MBPoiSearchResultLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		268AF2DFF4DC0F4D36614C1EC7214017 /* Pods-libNaviCore_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E024413DB12D2831DFB591FBFD14DF55 /* Pods-libNaviCore_Example-dummy.m */; };
+		273EDC4A7729FBBBE09CC45338BFB496 /* MBPoiFavorite.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F602ABFFB7C7A7235806C1BEA022CC0 /* MBPoiFavorite.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27E606CB53BC23156BF899064E18C791 /* MBNaviDataEntity.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E56E524EBA70167C59F733238BC9E9C /* MBNaviDataEntity.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		287213CB6F828F622A6AAA497BD5097A /* MBCarSensor.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D8AD7860780DD56D57EE1800C148534 /* MBCarSensor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2975A09730FD83DC0897129A11EA6585 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */; };
+		2B88C28DD20CBFA7B3AEB21A365197FE /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CB61F6FA511CAACB43A50DC3A82E0DD /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */; };
+		2CD9D42314EBF0674B0C887AB69A6F72 /* MBRouteCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = 76C1DEAFD8527E624E10A9B92E99D8C6 /* MBRouteCollection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D1F9EA3F8A0B2558A4E5F749920CCF4 /* MBColorfulPolylineOverlay.h in Headers */ = {isa = PBXBuildFile; fileRef = 97F26A8BAA409F2B865051BA29DD971D /* MBColorfulPolylineOverlay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2ECB938C90558FC656AB27F0D1D5FB98 /* MBHighwayGuideItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 7935C1C21651301ECFC79459C2454CE6 /* MBHighwayGuideItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2ECCAC52EF4C74E1032E0BC646BBE5B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
+		2F898A05F6CCF93F3A9C7903352FDF91 /* MBCompassOverlay.h in Headers */ = {isa = PBXBuildFile; fileRef = 19A684895EF1CA2CEACD1E421293C676 /* MBCompassOverlay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		300F198528C4FCF67A5A4302334FE7E7 /* MBCitySuggestionItem.h in Headers */ = {isa = PBXBuildFile; fileRef = B900498C07178A93EF670A89A0D8BC14 /* MBCitySuggestionItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30D475DF57C0C682A723231E7BCA0D14 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */; };
+		322ABE2F1633E9F9E16CBC7E77D529F6 /* MBRouteRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = B3BAFE50261EDCF52C60E8700DCE370B /* MBRouteRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32CE43F3C2E1F3B9A16DC02FD33D424C /* MBNaviSessionData.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BF17137F1E23279B73ADB254CDA51AB /* MBNaviSessionData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3570CD074000EA71FD77EC5534835677 /* iNaviCore in Sources */ = {isa = PBXBuildFile; fileRef = EF927A7A04413F4FD429E9D2CF9E6073 /* iNaviCore */; };
+		373413256658309F9053CE22BF62077E /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		384C7BB4264293BCC23890FEAA74522D /* MBCameraEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 0922362BAEF22B8F5EABA64A33B814C2 /* MBCameraEngine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3945341C9A178E8A42CAEE93280BBE8D /* MBPedestrianGuide.h in Headers */ = {isa = PBXBuildFile; fileRef = 8752D0C6DFC2A489E5AF497A4ACAF5BB /* MBPedestrianGuide.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B89B200EE90C57E07599204612369BF /* MBVehicleRestrictionItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 93344F0749F4B8A31A8FD362D86F31AA /* MBVehicleRestrictionItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D1BCA9EF66D6230656FE2BBAC86EBC6 /* MBRegulationRestriction.h in Headers */ = {isa = PBXBuildFile; fileRef = AD0A82E7E5F1483A314F81DB522E1F3F /* MBRegulationRestriction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F9A435A8073389A78D70BDFBBA2FD93 /* MBActiveLaneView.h in Headers */ = {isa = PBXBuildFile; fileRef = C255B2C1C7A1E388FBF7F37CE33DCC29 /* MBActiveLaneView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41FFBFBEB585232CA92E5F4E1D34ED82 /* MBVehicleInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CE9E89FDCC9040D2B2894F4E4442EAD /* MBVehicleInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44024C360AE115C83CA1DDDF164C568A /* MBPolyline.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F750F10F78B8D04BF61FF897C81D28E /* MBPolyline.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		477C57C25A11CDD7725906D40259DC82 /* MBSpeedCameraZoneData.h in Headers */ = {isa = PBXBuildFile; fileRef = BDF0FAEA53E09386146E0BEB04424B20 /* MBSpeedCameraZoneData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4CC7048A034CCE7CE8D726D9B05978B3 /* MBDatastore.h in Headers */ = {isa = PBXBuildFile; fileRef = C1897041B65DE1A970ED505405E5D4F6 /* MBDatastore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D98B8B32E93FA0682D4F310C1D89FF3 /* MBJunctionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DAB3757EF1844639C6DD99F14067EE7 /* MBJunctionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E7AE12013B486FE5F0EEBADABA3F752 /* MBSmallPassengerCarRegulationCityListFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 00751E332B0BE8B265CE8D0BF86E9C54 /* MBSmallPassengerCarRegulationCityListFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F4C260BF4BA9D7F0F8CA87C356F4A79 /* MBCityGroupItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 2340BAEA7BC048DC1FD1D60973FCAD38 /* MBCityGroupItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F868797EF59C8EBBF9AD5B423461433 /* MBPolylineOverlay.h in Headers */ = {isa = PBXBuildFile; fileRef = D96AF8BB962F811303435070AF876D46 /* MBPolylineOverlay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F90D9921785A3262F2E9195274AB509 /* MBReverseGeocoderResult.h in Headers */ = {isa = PBXBuildFile; fileRef = D188CCA944C11B52C101441970869244 /* MBReverseGeocoderResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		504FDC20A12EE7CA936832E627BB9772 /* MBDepartInFutureRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = B1BDEC8E87E1C51783E3F4A40BDB31BB /* MBDepartInFutureRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50E364F1670F1F82705F5D5890DDBA04 /* MBMapView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6474698C6AEECC56667BE9C5B21238FF /* MBMapView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		526D14FE756521569CB87B6A5D010089 /* MBMap.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CB1EBBCD12837370B96A94949F9FDF8 /* MBMap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52EEEBDA69892FD82D303D77D0CD281F /* MBWelcomeInfoCollector.h in Headers */ = {isa = PBXBuildFile; fileRef = B400F2D89EA3DBC5032BCF8E33B3FD16 /* MBWelcomeInfoCollector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		531403F4666AF84017720C046C87E0E0 /* MBLaneUsage.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E351A0F2957EA76EF5EB7775CAD3623 /* MBLaneUsage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		543131BB0006A0E9A4397E4A807070BE /* MBArrowRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 534FA8BF85083A486ED3C67F905199DF /* MBArrowRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54FFEA58C69AABA86962019D1613051C /* MBRegionPoiItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EA17FA07264E5402DDFAD9BDCCC6B36 /* MBRegionPoiItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5558B876B579BC1E79BD3D2B19148329 /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		58F4DFC969ED4D1930B864274617C9C5 /* Pods-libNaviCore_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 08102EEFE91E3B6207E5E90931C420A8 /* Pods-libNaviCore_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A0B8DC7D01A169C5C6AF645B07240FD /* MBTopicFilterItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BB8B7D577F9EB6F4F71083593EBDB41 /* MBTopicFilterItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BE525FF6FA14B999ED2CCC0AA4FA0CF /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */; };
+		5D22F5234F335961C39D8F091CFBC52E /* MBTripRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = E48A99D88196C2EDC1765C22235ACD28 /* MBTripRecorder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E47EF287DCB89489DBBFE0D2DD80F97 /* MBSpeedingReporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C3686AD4273B1ED65BC4335BEA3C70 /* MBSpeedingReporter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		615E456A68A3C4B44156071A4FEC6F63 /* MBRouteWanderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E69B961316D698FCFC169BC8E5EE8EF /* MBRouteWanderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		629A900DD489D3ED176FB1DDCA0A3A4D /* MBPoiSearchResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E500B324CFEBE021E994BC55C0FF115 /* MBPoiSearchResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62E237F88F2E76F4A40A309BEF49C762 /* MBNaviDataDownload.h in Headers */ = {isa = PBXBuildFile; fileRef = 2617B43881E4A1842F6A37F387D69FC8 /* MBNaviDataDownload.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		640CCE9C3A28AA3CA15510899F9140EE /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64CB4C1FB065E317D2345610B86461EF /* MBWorldManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0158EF84AD8E1884DBAAB7B84D5B3A78 /* MBWorldManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67F1963AA7C9EDB78127AD5F566A4949 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		6C30E5D6AE0FA737E2DF4474BC38C30F /* MBGuidanceIconView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F03E882FCE05C6D98FCE8A5A71F7B35 /* MBGuidanceIconView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C46B9F59F061B2E8E899DC380A5E578 /* MBCqPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A2244D4F59127844C13BD8A802934C4 /* MBCqPoint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EF211B94982CFC26F0DC4D482CF3395 /* MBGpsLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = FEFA3D168EBF930B8460E18170B9BF62 /* MBGpsLocation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FBDC2EDE695C42E9A6998FCF118A800 /* MBRouteDetailBrowser.h in Headers */ = {isa = PBXBuildFile; fileRef = EF19DCA959B450F7D91C2D4A776D9984 /* MBRouteDetailBrowser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		712CA444F519278CFBEE2508F6AE9CAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
+		719A4505F332154181F835502CE558F9 /* MBPoiTypeObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 47352FA2D8055C9CD231AB3E2A936CC4 /* MBPoiTypeObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72B6FE76E4B131EF554BA17BF637B83C /* MBEnrouteRegulationBrowser.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A989397669756A3BF0F4FCC608D9EFD /* MBEnrouteRegulationBrowser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74339C58AC4E5631FB8C0E662668A796 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */; };
+		74684EB4643C8EC06F2CD17B9D811A8F /* MBMapState.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B9BCD99284320BA79DA54B7E674A90D /* MBMapState.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74980463C3626086DCD6EE169FA1B26C /* MBHttpConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = D595E080C9B801D0A978C26D824F97CF /* MBHttpConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74B96FB15EE39CCA838A0328DD567E60 /* MBNaviBaseTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DE6C220B70AFBC581E1FF6EC3B2B60D /* MBNaviBaseTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A75189D6D2ACFF8804DA70916F57FFA /* MBCityRegulation.h in Headers */ = {isa = PBXBuildFile; fileRef = 605FE1BB79887F91407EB08A3003AF58 /* MBCityRegulation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B6C1B856B4D969E35E7B6B9ADC07F6A /* MBTrackOverlay.h in Headers */ = {isa = PBXBuildFile; fileRef = CD4F94A69E59EC8B79E2CC52485D670F /* MBTrackOverlay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C0ADF32BAE1E047338B7F9C6D49C3BB /* MBRouteBase.h in Headers */ = {isa = PBXBuildFile; fileRef = A79E5497DCDD242DFCFC350E317C55F3 /* MBRouteBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C67CBD15D9B5D0B7769B2F469478332 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */; };
+		7EA2C84A81EFE921260FE60E31CDF8E8 /* MBWmrBaseTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = E264B5F01B01A9306842F23731782E11 /* MBWmrBaseTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81E67489B72A3D126A5371516E09977F /* MapbarGUID.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E19C8D25FFF8967386D604BB72556B2 /* MapbarGUID.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8272FF2E16EE4D35EFFDC5BFC0996C82 /* MBMapViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = EEC88EDB98849FE6FC15B74C245AE14D /* MBMapViewDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8610E92687A33E0E68CC05BFDD3BD92F /* MBPoiDetailRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A9DC13769031F8D99C0213532E43C57 /* MBPoiDetailRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		875A310EAF4D0C136C3FFFF5E0335BE4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */; };
+		8A226F410EA13502E4A90E86F3213340 /* MBNaviSessionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A43057122A8EA1A588B593972B086AD /* MBNaviSessionDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A263248A74365B3D7F1F3FACFEB4B0D /* MBLocationSimulator.h in Headers */ = {isa = PBXBuildFile; fileRef = 55691C13B3C320C96A80B8C608BC09B6 /* MBLocationSimulator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8AE19756F0126FE92AF625E36F3D70FE /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		8C2C0FA4FF64C94E2D11E3D381602811 /* MBEnrouteCityFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = A673AAE2602C61492CAFED910D54247F /* MBEnrouteCityFetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8DDF5C363C07632AEDCCC26A849E1AD9 /* MBModelOverlay.h in Headers */ = {isa = PBXBuildFile; fileRef = 36C94779FE32A75FCC51CE45F170BBBF /* MBModelOverlay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		947159408E0AFE328C04B2B12DDF8B27 /* MBObject.h in Headers */ = {isa = PBXBuildFile; fileRef = BDC559746F09DFEC42115FECF08CE0A7 /* MBObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		950943200D4AAC241C7F43AA46E97F98 /* MBHttpTrafficMeter.h in Headers */ = {isa = PBXBuildFile; fileRef = A9C20B0B0BBFE2D024B202334A7E76FB /* MBHttpTrafficMeter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95925306C31DFA5B8AC3ABF078D91002 /* MBNaviSpeaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EA5DCB70289CB6F92FD7F9682A5FC39 /* MBNaviSpeaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		960FA6B3567D8B6E703936D76F680F09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
+		96BD6A640604052D5F7EE89551DEAD7D /* MBPoiTypeTree.h in Headers */ = {isa = PBXBuildFile; fileRef = DC848D3BE1F77555B73AD0CE2997ABFE /* MBPoiTypeTree.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A1D148E1B4B71A717570A4ABCFDCB5D /* Pods-libNaviCore_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 042EB96234B5650F94870B39E2756726 /* Pods-libNaviCore_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A22CB593FA19C9B585C49A7E1EAD493 /* MBRoutePlan.h in Headers */ = {isa = PBXBuildFile; fileRef = F4390D3C982F60FDE06F6CF7E4B3A1F7 /* MBRoutePlan.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D1D1543586A9D20B3F54993B15B4D96 /* MBRouteOverlay.h in Headers */ = {isa = PBXBuildFile; fileRef = 85B25663DED8C2BB990F6AA778A9E528 /* MBRouteOverlay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D3C5E2F56838937146191468A893244 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E658F388F01C72599CA75537950B6095 /* XCTest.framework */; };
+		A1C42B72C414AE0EA0EC5117A09B840A /* MBReal3dView.h in Headers */ = {isa = PBXBuildFile; fileRef = 873B3075AEC530AAB14584B1C28C5AC7 /* MBReal3dView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A38469B6091D04A5B19B7F444EA77BD4 /* MBNaviProgressMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = FC36D95A58A7846794C32CCBE6284539 /* MBNaviProgressMonitor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5F964E3909AD3D15ABB9E383B3F3E72 /* MBPoiTypeID.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B6E71AB25BC8718A13BDF0C830C0729 /* MBPoiTypeID.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7CE6ADDC3986399D4F4CF8F6D823558 /* MBArrowOverlay.h in Headers */ = {isa = PBXBuildFile; fileRef = F3EC97ED84BA793C98D465569BD11D12 /* MBArrowOverlay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9790E28E9D2536F1642AAB6C07234F3 /* MBVehicleInfoAdvanced.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EDADF922BC985801D492AD68784A6D6 /* MBVehicleInfoAdvanced.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA1D1209A51EA9ED3DFB319E36E889EC /* MBGuidanceText.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B98214BC52F5326FA1F5FE13D89B843 /* MBGuidanceText.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADEFA4D2E6E51D551FA70FC5E6B0FC10 /* navicore.gitinfo in Sources */ = {isa = PBXBuildFile; fileRef = BC49F67D9E8FF406A4AB9361414E9F65 /* navicore.gitinfo */; };
+		AFBE4E216D4A7FA858679BF5589C6D99 /* MBAnnotation.h in Headers */ = {isa = PBXBuildFile; fileRef = A3A635B5AD68A5C60DB1703A5348D803 /* MBAnnotation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B03AAD18048A496A5844EAA55339173E /* MBEnrouteTiSpeaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 61FCBBD35771977865EE90C4C04C1969 /* MBEnrouteTiSpeaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0B543EEED3728AF1A557DBA543F9AF0 /* MBFavoritePoiLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 353D3C4EBFEB38B6DAE125E064DC7E4D /* MBFavoritePoiLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1CC3C9EC0CA3BDE771BDE7B24D4A3BC /* MBNaviSession.h in Headers */ = {isa = PBXBuildFile; fileRef = B6798AD591805B134974845E0A04079F /* MBNaviSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B25AF8A733CF8A496FC4E1056A0F38CC /* MBRouteDetailItem.h in Headers */ = {isa = PBXBuildFile; fileRef = B70C505B15299DFB3E625124D9F27D94 /* MBRouteDetailItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B25BCC9160B34A30F4C7E7EF7915769A /* MB4SObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 32E52F7EFBD72E878A6615DDB3AA7D51 /* MB4SObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B30B223D0500F63FF2F7CBA11DA4A5EB /* MBRouteBriefRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = F694E543B5CFE8DF334760EAFCA16588 /* MBRouteBriefRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4C171DDB63AA80CE4257502157DCF4C /* MBMapBaseType.h in Headers */ = {isa = PBXBuildFile; fileRef = 23B0823460602248DA2D2CB246985C03 /* MBMapBaseType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B52281F9F4340D4FC8ABB2FEB1FEC08E /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */; };
+		B6AB4515CBF03096EC19DB83DBA1A62E /* MBLaneModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 77C34740ACD66A66072EA39555B023B8 /* MBLaneModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B714EF40F51D3D0AFEB0F27FEFAE21BE /* MBRegulationRestrictionBrowser.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F222CA5BA9995F0C1876AD1E0B40E69 /* MBRegulationRestrictionBrowser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB2B0DC74FC01E54DA41C686E7635651 /* MBCityDistributionItem.h in Headers */ = {isa = PBXBuildFile; fileRef = D6BB16E08E262BA68F2D1DA93204083E /* MBCityDistributionItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB392E6EAC3EBFCE1E08A833AA3BAF09 /* MBLogSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = D6EEB3CAD713B6CD73CD9340894D62F5 /* MBLogSystem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC46723E3CD6600B439761731E826CBA /* MBManeuver.h in Headers */ = {isa = PBXBuildFile; fileRef = 192C1984FCF5711E53F0F97AD92FA867 /* MBManeuver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCD94CDCE045276B7E890AC6321F31A7 /* MBMultipointOverlay.h in Headers */ = {isa = PBXBuildFile; fileRef = AFEEF58F0DEAAEB8748A96FEAEE2463F /* MBMultipointOverlay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD9209218BFED51627D038661506BBEB /* MBGpsInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 24A747E099F3B1D7A12935BE30CEAC8C /* MBGpsInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDD9DF2A6B241051EF27AE9A0A421B43 /* MBRegulationRestrictionId.h in Headers */ = {isa = PBXBuildFile; fileRef = 59DF8EFAF660977B929BD02D0D16CDC3 /* MBRegulationRestrictionId.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE1D35670FC4D1EC6B60A3DBB8E19893 /* MB4SServices.h in Headers */ = {isa = PBXBuildFile; fileRef = 62B34B6FEB19EB85853802B08C8BEE27 /* MB4SServices.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1532F85903E8BC9926E3FC0A97D99B8 /* MBTrackManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 030461D3A9268C18874B43E53AAEB8CA /* MBTrackManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C390C6005353FB986CB52F474CEF8588 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */; };
+		C3B1FFCABE94362CFA04CFE005BEB7D5 /* MBHighwayGuideText.h in Headers */ = {isa = PBXBuildFile; fileRef = 5421E8BDA3321A743C2F5524B4DBAF4A /* MBHighwayGuideText.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7F4737541CE3CAC574E010E66706950 /* MBAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = C8D940D410C73FCE8DF3091AE791C8C4 /* MBAuth.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C93691B76F51A0F61CCCAC5D78E9F194 /* MBPoiBaseTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = F3D1275115F978E642C8DF270096B7C2 /* MBPoiBaseTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9F76407497DF0205D7460B36D22259F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */; };
+		CA54C09A12400567AFFCB407EEB7E154 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */; };
+		CC12CE1779096A044B6A616C90F71F27 /* Client.h in Headers */ = {isa = PBXBuildFile; fileRef = 64BC451EBE8506E2CDCBE49F2D136121 /* Client.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD1FB43CD1D61A8D39430F020F71CFB0 /* MBReverseGeocode.h in Headers */ = {isa = PBXBuildFile; fileRef = FF7FBC42093067A683BDE330D0289EDD /* MBReverseGeocode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE3076989A54AFD2F2DA4F5F49937E9C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
+		CEE0C8168CBC3EDA185EAED36E4D146C /* MBEnroutePoiSearchRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = A7E76EAC2E92B0EF16C52945EDC60D2F /* MBEnroutePoiSearchRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CEE5162EBCD00B45F16C4A038B24EECA /* MBNavi.h in Headers */ = {isa = PBXBuildFile; fileRef = 03532A40F437DE3D16A5BEAFFB101D2C /* MBNavi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFB3AB3D67558B4DEAE72AA6983BAC59 /* MBAdminBorder.h in Headers */ = {isa = PBXBuildFile; fileRef = F65B72B53C804E9249415D85F808E241 /* MBAdminBorder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1D8478ED3F5E76C93734F95A4E8EEB5 /* libNaviCore-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC29F6D7901B83B717087EC7EE47385 /* libNaviCore-dummy.m */; };
+		D9053381BDDFBEE1A68D3436E19DF918 /* MBPoiTypeManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 101A6201ADA860DD6E9993A7C948BA8D /* MBPoiTypeManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB1A7415E6DA203C354811F7EAB2E931 /* MBNaviCoreBase.h in Headers */ = {isa = PBXBuildFile; fileRef = D93E0E3187E4FC19668368B0D4AA9AC1 /* MBNaviCoreBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC529769F06C660EFDC3730DD5FCAF42 /* MBRouteDescriptionItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D50662F38BB335C6DD68E623C60D135 /* MBRouteDescriptionItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE99084A823D52397C9C5973AE43E309 /* Pods-libNaviCore_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1144F9C81405825D4F5A8E67845498 /* Pods-libNaviCore_Tests-dummy.m */; };
+		DEDAE5BAC266556486B980C65631B74C /* MBWmrNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 14C36F3D9E17A64E6174B16415AF16EF /* MBWmrNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1B1680F29F03165AF1DA7B46C97E3CD /* MBDataUpdateTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 629A002DB3EBBE3E026771C455FF77D2 /* MBDataUpdateTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2AF9947FECA1B06259290E4132C46EE /* MBPastEtaQuerier.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CE4E39EAC215C77B130E724C35FC514 /* MBPastEtaQuerier.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E32EC21B95B5AFD5D6CF75DDF5F1B572 /* MBRoutePointCollector.h in Headers */ = {isa = PBXBuildFile; fileRef = A77D46AF9C5ADA63897285F79D239D0D /* MBRoutePointCollector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3EB8B82874C904738DB14CBBB329767 /* MBAdminSpeaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 1845817BD418CA0FA14ACA9A29590DC2 /* MBAdminSpeaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4E38CB2CD8E998DEA5C51B6EB894A56 /* MBNetworkMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = 45ABDEBB0037C85429A829B0E4918AD8 /* MBNetworkMonitor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5275D74632D2A74439ED649E0133C1D /* MBPolygonOverlay.h in Headers */ = {isa = PBXBuildFile; fileRef = 27B2D0392ADA745A95A40546D0BB8971 /* MBPolygonOverlay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E559B96F63A4728CFDA67AC037B70561 /* module.modulemap in Sources */ = {isa = PBXBuildFile; fileRef = EE7C8BC9A97580D69296F3BED7DC15C4 /* module.modulemap */; };
+		E64F53FEC720CDE36DE51BE01B5BBE55 /* MBRoadCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = 6841E2D4C7CEA4569AE04EAB8A3D60F0 /* MBRoadCamera.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6955AA0B7812A8B3C7AE6ECF1012685 /* MBIconOverlay.h in Headers */ = {isa = PBXBuildFile; fileRef = 44ECF08E79A18216B080C968F3E51F63 /* MBIconOverlay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7AE0B4EDF23F33B9BC563EBE79996C1 /* MBKeywordSuggestionItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 43EA99D385B01E2F0F25F437229EE769 /* MBKeywordSuggestionItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E868EBE7C4DEEB103D363254DDC422E8 /* MBDatastoreItem.h in Headers */ = {isa = PBXBuildFile; fileRef = A5E25D0FA6202974064B7CE5BFAE2045 /* MBDatastoreItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB67254E8618A31AD669E91DC89AFF86 /* MBGpsSimulator.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DF8779B73EAB1C3CF12EE228828337C /* MBGpsSimulator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ECE9D96A3EEE1772503E85054263ADAB /* MBGuidanceTextGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 4073AC412FDEA71BFB519E4FAC8F10AB /* MBGuidanceTextGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED3515FEF3C65955985BE1435412C6AD /* MBSatellite.h in Headers */ = {isa = PBXBuildFile; fileRef = 185E6543374BBF7D7895272E5CAF6733 /* MBSatellite.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF0DE62654F88D38CFEBA86F10C07ACC /* MBPoiDetailFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = F7F85E24D4BAA0B8057BFD430032C79E /* MBPoiDetailFetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF645EB4C4DAA0ADAAB40829083C90D6 /* MBPoiSuggest.h in Headers */ = {isa = PBXBuildFile; fileRef = A7438A2389FBF933DC2EFCDC1019D355 /* MBPoiSuggest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F40E5291C7C1A57772FDAFE29F1C7675 /* MBDashboard.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BABC6C15D5B1D003009CA704F1355CA /* MBDashboard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4ED4F03F9F7875019DF184D0D51596E /* MBPoiFavoriteItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 91706BA179774675430B3FF725ECB735 /* MBPoiFavoriteItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5A000B3982B02B9F6BBB3B9722D6DA6 /* MBIconRepo.h in Headers */ = {isa = PBXBuildFile; fileRef = 72C473985B411A15A78B6A539F9B2957 /* MBIconRepo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8DC88EACB46918AFB5B5CE85F18B246 /* MBAvoidanceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F12F2D79571B78EAA9DA940C5FE73E8C /* MBAvoidanceManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F973B13EA6426B91C849E9B4D73F1EFD /* MBMapUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = A027662866B82521AD128BE123B5D7FF /* MBMapUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9B9B1364BC56EC4014662486EED925B /* MBWmr.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E21917CF6D778F0125DA3BAEFE22759 /* MBWmr.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB44DE3BC3CE4B17D346370B9716C024 /* MBUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C9FFFF02D0092838D65EAA2D5A669F6 /* MBUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB8025BD765EF857024FFFAE252CFB17 /* MBDataCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D3139D63554A17616860F265CCB3470 /* MBDataCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD17F299D41DA1BFCCDA36F97171425C /* MBEnrouteRestrictionBrowser.h in Headers */ = {isa = PBXBuildFile; fileRef = FFA098ADB55F0EE799B6DBDC0CC8CB4A /* MBEnrouteRestrictionBrowser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD3C0DBF12F11D629A7539B3364A12F9 /* iNaviCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 6226605601A0573B89CE44E2D4C19A48 /* iNaviCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD7E7E02C19784989050A836F720980A /* MBRouteExplorer.h in Headers */ = {isa = PBXBuildFile; fileRef = F874FEBCDF56C4C81DF000280B294F6E /* MBRouteExplorer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF8307B7346F4D3BA13C11AECFE6EDD0 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE497A120CE9B4AF55281042615A4362 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
+			remoteInfo = FBSnapshotTestCase;
+		};
+		B91FD27F62DF93D1F95FF285779D0DB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3552EC4838BC643C5CBF42F8ED7AA25D;
+			remoteInfo = libNaviCore;
+		};
+		E0C09E02534E284CAC7D6C505DE3DE35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 529B7E7CFAE5D4D84662434F638C26AB;
+			remoteInfo = "Pods-libNaviCore_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00751E332B0BE8B265CE8D0BF86E9C54 /* MBSmallPassengerCarRegulationCityListFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBSmallPassengerCarRegulationCityListFilter.h; sourceTree = "<group>"; };
+		0158EF84AD8E1884DBAAB7B84D5B3A78 /* MBWorldManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBWorldManager.h; sourceTree = "<group>"; };
+		030461D3A9268C18874B43E53AAEB8CA /* MBTrackManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBTrackManager.h; sourceTree = "<group>"; };
+		03532A40F437DE3D16A5BEAFFB101D2C /* MBNavi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBNavi.h; sourceTree = "<group>"; };
+		042EB96234B5650F94870B39E2756726 /* Pods-libNaviCore_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-libNaviCore_Tests-umbrella.h"; sourceTree = "<group>"; };
+		057086CBF9569D521F73E93C68068990 /* Pods-libNaviCore_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-libNaviCore_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		08102EEFE91E3B6207E5E90931C420A8 /* Pods-libNaviCore_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-libNaviCore_Example-umbrella.h"; sourceTree = "<group>"; };
+		0922362BAEF22B8F5EABA64A33B814C2 /* MBCameraEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBCameraEngine.h; sourceTree = "<group>"; };
+		0A1144F9C81405825D4F5A8E67845498 /* Pods-libNaviCore_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-libNaviCore_Tests-dummy.m"; sourceTree = "<group>"; };
+		0B108885F5B08798B9A97FE4032F61BA /* libNaviCore-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "libNaviCore-Info.plist"; sourceTree = "<group>"; };
+		0BB8B7D577F9EB6F4F71083593EBDB41 /* MBTopicFilterItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBTopicFilterItem.h; sourceTree = "<group>"; };
+		0CC0FA7443F7507569781CA25303F96E /* MBPoiItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBPoiItem.h; sourceTree = "<group>"; };
+		0D3139D63554A17616860F265CCB3470 /* MBDataCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBDataCommon.h; sourceTree = "<group>"; };
+		0D50662F38BB335C6DD68E623C60D135 /* MBRouteDescriptionItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBRouteDescriptionItem.h; sourceTree = "<group>"; };
+		0DE6C220B70AFBC581E1FF6EC3B2B60D /* MBNaviBaseTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBNaviBaseTypes.h; sourceTree = "<group>"; };
+		0E351A0F2957EA76EF5EB7775CAD3623 /* MBLaneUsage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBLaneUsage.h; sourceTree = "<group>"; };
+		0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		0F750F10F78B8D04BF61FF897C81D28E /* MBPolyline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBPolyline.h; sourceTree = "<group>"; };
+		101A6201ADA860DD6E9993A7C948BA8D /* MBPoiTypeManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBPoiTypeManager.h; sourceTree = "<group>"; };
+		14C36F3D9E17A64E6174B16415AF16EF /* MBWmrNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBWmrNode.h; sourceTree = "<group>"; };
+		1529C42823386167C67D99FE17CCABC6 /* Pods-libNaviCore_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-libNaviCore_Tests.modulemap"; sourceTree = "<group>"; };
+		1845817BD418CA0FA14ACA9A29590DC2 /* MBAdminSpeaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBAdminSpeaker.h; sourceTree = "<group>"; };
+		185E6543374BBF7D7895272E5CAF6733 /* MBSatellite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBSatellite.h; sourceTree = "<group>"; };
+		192C1984FCF5711E53F0F97AD92FA867 /* MBManeuver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBManeuver.h; sourceTree = "<group>"; };
+		19A684895EF1CA2CEACD1E421293C676 /* MBCompassOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBCompassOverlay.h; sourceTree = "<group>"; };
+		1A43057122A8EA1A588B593972B086AD /* MBNaviSessionDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBNaviSessionDelegate.h; sourceTree = "<group>"; };
+		1A989397669756A3BF0F4FCC608D9EFD /* MBEnrouteRegulationBrowser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBEnrouteRegulationBrowser.h; sourceTree = "<group>"; };
+		1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		1CB1EBBCD12837370B96A94949F9FDF8 /* MBMap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBMap.h; sourceTree = "<group>"; };
+		1CE4E39EAC215C77B130E724C35FC514 /* MBPastEtaQuerier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBPastEtaQuerier.h; sourceTree = "<group>"; };
+		1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		1ED48C94E5DAA25D7754D4C0C4614727 /* MBPoiSearchRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBPoiSearchRequest.h; sourceTree = "<group>"; };
+		2340BAEA7BC048DC1FD1D60973FCAD38 /* MBCityGroupItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBCityGroupItem.h; sourceTree = "<group>"; };
+		235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		23B0823460602248DA2D2CB246985C03 /* MBMapBaseType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBMapBaseType.h; sourceTree = "<group>"; };
+		24A747E099F3B1D7A12935BE30CEAC8C /* MBGpsInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBGpsInfo.h; sourceTree = "<group>"; };
+		254A65B780FC4D51D95D4FECED90ECB8 /* MBHighwayGuide.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBHighwayGuide.h; sourceTree = "<group>"; };
+		2617B43881E4A1842F6A37F387D69FC8 /* MBNaviDataDownload.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBNaviDataDownload.h; sourceTree = "<group>"; };
+		277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		27B2D0392ADA745A95A40546D0BB8971 /* MBPolygonOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBPolygonOverlay.h; sourceTree = "<group>"; };
+		284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		2A37941ED4D4E032D6CC53FC4E95B2C3 /* libNaviCore-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "libNaviCore-umbrella.h"; sourceTree = "<group>"; };
+		2B9BCD99284320BA79DA54B7E674A90D /* MBMapState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBMapState.h; sourceTree = "<group>"; };
+		2BF9022F7903138B8C5BC7D8972EFC5F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		2D8AD7860780DD56D57EE1800C148534 /* MBCarSensor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBCarSensor.h; sourceTree = "<group>"; };
+		2DD2C3EE31C5A81C51E6BA9FDC1FE5C9 /* MBSoundArbiter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBSoundArbiter.h; sourceTree = "<group>"; };
+		2DEEBB7815FC81B39026EB697FA4F5BC /* MBSigninModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBSigninModule.h; sourceTree = "<group>"; };
+		2E43FD9706D57E192751E39A20767845 /* Pods-libNaviCore_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-libNaviCore_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2F03E882FCE05C6D98FCE8A5A71F7B35 /* MBGuidanceIconView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBGuidanceIconView.h; sourceTree = "<group>"; };
+		30C07DF1298612103E61D3AFB123F331 /* Pods-libNaviCore_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-libNaviCore_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		32E52F7EFBD72E878A6615DDB3AA7D51 /* MB4SObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MB4SObject.h; sourceTree = "<group>"; };
+		353D3C4EBFEB38B6DAE125E064DC7E4D /* MBFavoritePoiLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBFavoritePoiLayer.h; sourceTree = "<group>"; };
+		361B42395CE4622534FB9026DEB1E74A /* libNaviCore.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = libNaviCore.modulemap; sourceTree = "<group>"; };
+		36C94779FE32A75FCC51CE45F170BBBF /* MBModelOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBModelOverlay.h; sourceTree = "<group>"; };
+		37AB3FF2838BE693D5B73E536136F6A9 /* Pods-libNaviCore_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-libNaviCore_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3A2244D4F59127844C13BD8A802934C4 /* MBCqPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBCqPoint.h; sourceTree = "<group>"; };
+		3A722E0DFBB320C33AFC19B8D2B3F603 /* libNaviCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = libNaviCore.release.xcconfig; sourceTree = "<group>"; };
+		3B6E71AB25BC8718A13BDF0C830C0729 /* MBPoiTypeID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBPoiTypeID.h; sourceTree = "<group>"; };
+		3BA0ABAD8890E4572BE9B45407A70CB4 /* Pods-libNaviCore_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-libNaviCore_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3BBA8A43AF4374DCEFC1DE03F04D766E /* MBReverseGeocoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBReverseGeocoder.h; sourceTree = "<group>"; };
+		3BE320B0E3E18DBEEEEBAF247007A4F2 /* MBUserCamera.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBUserCamera.h; sourceTree = "<group>"; };
+		3E69B961316D698FCFC169BC8E5EE8EF /* MBRouteWanderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBRouteWanderer.h; sourceTree = "<group>"; };
+		3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		4073AC412FDEA71BFB519E4FAC8F10AB /* MBGuidanceTextGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBGuidanceTextGenerator.h; sourceTree = "<group>"; };
+		43632428D179F3CBA6A1C3502441F7FA /* Pods-libNaviCore_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-libNaviCore_Tests"; path = Pods_libNaviCore_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43EA99D385B01E2F0F25F437229EE769 /* MBKeywordSuggestionItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBKeywordSuggestionItem.h; sourceTree = "<group>"; };
+		44ECF08E79A18216B080C968F3E51F63 /* MBIconOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBIconOverlay.h; sourceTree = "<group>"; };
+		4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		45ABDEBB0037C85429A829B0E4918AD8 /* MBNetworkMonitor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBNetworkMonitor.h; sourceTree = "<group>"; };
+		47352FA2D8055C9CD231AB3E2A936CC4 /* MBPoiTypeObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBPoiTypeObject.h; sourceTree = "<group>"; };
+		4A4A8B2B2C9D9EFAC6082745D2B2189D /* Pods-libNaviCore_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-libNaviCore_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		4A9DC13769031F8D99C0213532E43C57 /* MBPoiDetailRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBPoiDetailRequest.h; sourceTree = "<group>"; };
+		4BFB625D3F78EF06312975D98EBEAD02 /* libNaviCore */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = libNaviCore; path = libNaviCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
+		4C9FFFF02D0092838D65EAA2D5A669F6 /* MBUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBUtils.h; sourceTree = "<group>"; };
+		4DF8779B73EAB1C3CF12EE228828337C /* MBGpsSimulator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBGpsSimulator.h; sourceTree = "<group>"; };
+		4E56E524EBA70167C59F733238BC9E9C /* MBNaviDataEntity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBNaviDataEntity.h; sourceTree = "<group>"; };
+		534FA8BF85083A486ED3C67F905199DF /* MBArrowRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBArrowRenderer.h; sourceTree = "<group>"; };
+		5421E8BDA3321A743C2F5524B4DBAF4A /* MBHighwayGuideText.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBHighwayGuideText.h; sourceTree = "<group>"; };
+		54798D46A8AD65D5EDAB10BD7367FDD3 /* MBLocationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBLocationManager.h; sourceTree = "<group>"; };
+		55691C13B3C320C96A80B8C608BC09B6 /* MBLocationSimulator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBLocationSimulator.h; sourceTree = "<group>"; };
+		57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		59DF8EFAF660977B929BD02D0D16CDC3 /* MBRegulationRestrictionId.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBRegulationRestrictionId.h; sourceTree = "<group>"; };
+		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CE9E89FDCC9040D2B2894F4E4442EAD /* MBVehicleInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBVehicleInfo.h; sourceTree = "<group>"; };
+		5EA5DCB70289CB6F92FD7F9682A5FC39 /* MBNaviSpeaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBNaviSpeaker.h; sourceTree = "<group>"; };
+		5EDADF922BC985801D492AD68784A6D6 /* MBVehicleInfoAdvanced.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBVehicleInfoAdvanced.h; sourceTree = "<group>"; };
+		5FC29F6D7901B83B717087EC7EE47385 /* libNaviCore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "libNaviCore-dummy.m"; sourceTree = "<group>"; };
+		605FE1BB79887F91407EB08A3003AF58 /* MBCityRegulation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBCityRegulation.h; sourceTree = "<group>"; };
+		61FCBBD35771977865EE90C4C04C1969 /* MBEnrouteTiSpeaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBEnrouteTiSpeaker.h; sourceTree = "<group>"; };
+		6226605601A0573B89CE44E2D4C19A48 /* iNaviCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = iNaviCore.h; sourceTree = "<group>"; };
+		629A002DB3EBBE3E026771C455FF77D2 /* MBDataUpdateTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBDataUpdateTask.h; sourceTree = "<group>"; };
+		62B34B6FEB19EB85853802B08C8BEE27 /* MB4SServices.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MB4SServices.h; sourceTree = "<group>"; };
+		6474698C6AEECC56667BE9C5B21238FF /* MBMapView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBMapView.h; sourceTree = "<group>"; };
+		64BC451EBE8506E2CDCBE49F2D136121 /* Client.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Client.h; sourceTree = "<group>"; };
+		656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		66058B4D4B002C410B0553826B25178A /* MBEnroutePoiSearchSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBEnroutePoiSearchSession.h; sourceTree = "<group>"; };
+		66C9D3B9B3F4F49EBEFE66BF625682EA /* MBAvoidanceArea.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBAvoidanceArea.h; sourceTree = "<group>"; };
+		6841E2D4C7CEA4569AE04EAB8A3D60F0 /* MBRoadCamera.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBRoadCamera.h; sourceTree = "<group>"; };
+		6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		6BABC6C15D5B1D003009CA704F1355CA /* MBDashboard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBDashboard.h; sourceTree = "<group>"; };
+		6BF17137F1E23279B73ADB254CDA51AB /* MBNaviSessionData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBNaviSessionData.h; sourceTree = "<group>"; };
+		6CA4AEACB173F925FFDCA8FD9D1E8ADA /* MBCircleOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBCircleOverlay.h; sourceTree = "<group>"; };
+		6E084C40134D69F9F4371704DF821070 /* MBOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBOverlay.h; sourceTree = "<group>"; };
+		6EA17FA07264E5402DDFAD9BDCCC6B36 /* MBRegionPoiItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBRegionPoiItem.h; sourceTree = "<group>"; };
+		6F222CA5BA9995F0C1876AD1E0B40E69 /* MBRegulationRestrictionBrowser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBRegulationRestrictionBrowser.h; sourceTree = "<group>"; };
+		72C473985B411A15A78B6A539F9B2957 /* MBIconRepo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBIconRepo.h; sourceTree = "<group>"; };
+		76C1DEAFD8527E624E10A9B92E99D8C6 /* MBRouteCollection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBRouteCollection.h; sourceTree = "<group>"; };
+		77C34740ACD66A66072EA39555B023B8 /* MBLaneModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBLaneModel.h; sourceTree = "<group>"; };
+		7935C1C21651301ECFC79459C2454CE6 /* MBHighwayGuideItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBHighwayGuideItem.h; sourceTree = "<group>"; };
+		7B98214BC52F5326FA1F5FE13D89B843 /* MBGuidanceText.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBGuidanceText.h; sourceTree = "<group>"; };
+		7D0D0E103EB6FDD0B88B39E4071BFCD0 /* MBPoiSearchResultLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBPoiSearchResultLayer.h; sourceTree = "<group>"; };
+		7E19C8D25FFF8967386D604BB72556B2 /* MapbarGUID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MapbarGUID.h; sourceTree = "<group>"; };
+		7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		804B285CA1FF55D6CE2EA1B4D65C16A7 /* Pods-libNaviCore_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-libNaviCore_Example.modulemap"; sourceTree = "<group>"; };
+		81694AC097217D0D7FF02B8B611D62A9 /* MBPoiFavorites.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBPoiFavorites.h; sourceTree = "<group>"; };
+		8186C3F26890CFF67380215B251893C0 /* iNaviCore */ = {isa = PBXFileReference; includeInIndex = 1; name = iNaviCore; path = libNaviCore/Classes/iNaviCore.framework/Versions/A/iNaviCore; sourceTree = "<group>"; };
+		81B6F8EBBBBCE2090B33D2048F51595D /* Pods-libNaviCore_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-libNaviCore_Example"; path = Pods_libNaviCore_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82C5B02FA951790E058FF0C50D0C4D0C /* Pods-libNaviCore_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-libNaviCore_Example-frameworks.sh"; sourceTree = "<group>"; };
+		85B25663DED8C2BB990F6AA778A9E528 /* MBRouteOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBRouteOverlay.h; sourceTree = "<group>"; };
+		86C3686AD4273B1ED65BC4335BEA3C70 /* MBSpeedingReporter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBSpeedingReporter.h; sourceTree = "<group>"; };
+		873B3075AEC530AAB14584B1C28C5AC7 /* MBReal3dView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBReal3dView.h; sourceTree = "<group>"; };
+		8752D0C6DFC2A489E5AF497A4ACAF5BB /* MBPedestrianGuide.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBPedestrianGuide.h; sourceTree = "<group>"; };
+		88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		8BD5B0AED9CAD7A0D1F8B4937515FDD8 /* Pods-libNaviCore_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-libNaviCore_Example-Info.plist"; sourceTree = "<group>"; };
+		8E21917CF6D778F0125DA3BAEFE22759 /* MBWmr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBWmr.h; sourceTree = "<group>"; };
+		8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		8F602ABFFB7C7A7235806C1BEA022CC0 /* MBPoiFavorite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBPoiFavorite.h; sourceTree = "<group>"; };
+		91706BA179774675430B3FF725ECB735 /* MBPoiFavoriteItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBPoiFavoriteItem.h; sourceTree = "<group>"; };
+		93344F0749F4B8A31A8FD362D86F31AA /* MBVehicleRestrictionItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBVehicleRestrictionItem.h; sourceTree = "<group>"; };
+		94307DA1D0EF67B03D1709DB2E343CD2 /* MBPoiSearchSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBPoiSearchSession.h; sourceTree = "<group>"; };
+		9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
+		96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		97F26A8BAA409F2B865051BA29DD971D /* MBColorfulPolylineOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBColorfulPolylineOverlay.h; sourceTree = "<group>"; };
+		99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		9B60C299F0E2F526C8EF9B9F178D542E /* MBImNaviLogic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBImNaviLogic.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DAB3757EF1844639C6DD99F14067EE7 /* MBJunctionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBJunctionView.h; sourceTree = "<group>"; };
+		9E500B324CFEBE021E994BC55C0FF115 /* MBPoiSearchResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBPoiSearchResult.h; sourceTree = "<group>"; };
+		9E704BD541F8CCA8BDDB8BFBDE5402F7 /* Pods-libNaviCore_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-libNaviCore_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9FD9A52541D53571D663F4ADB48EA1A4 /* libNaviCore.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = libNaviCore.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A027662866B82521AD128BE123B5D7FF /* MBMapUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBMapUtils.h; sourceTree = "<group>"; };
+		A3A635B5AD68A5C60DB1703A5348D803 /* MBAnnotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBAnnotation.h; sourceTree = "<group>"; };
+		A5212AD2430A39275CBBBDE9386313FB /* Pods-libNaviCore_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-libNaviCore_Tests-Info.plist"; sourceTree = "<group>"; };
+		A5E25D0FA6202974064B7CE5BFAE2045 /* MBDatastoreItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBDatastoreItem.h; sourceTree = "<group>"; };
+		A673AAE2602C61492CAFED910D54247F /* MBEnrouteCityFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBEnrouteCityFetcher.h; sourceTree = "<group>"; };
+		A7438A2389FBF933DC2EFCDC1019D355 /* MBPoiSuggest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBPoiSuggest.h; sourceTree = "<group>"; };
+		A77D46AF9C5ADA63897285F79D239D0D /* MBRoutePointCollector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBRoutePointCollector.h; sourceTree = "<group>"; };
+		A79E5497DCDD242DFCFC350E317C55F3 /* MBRouteBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBRouteBase.h; sourceTree = "<group>"; };
+		A7E76EAC2E92B0EF16C52945EDC60D2F /* MBEnroutePoiSearchRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBEnroutePoiSearchRequest.h; sourceTree = "<group>"; };
+		A91ED8B25E35E1137A07865982EA715F /* Pods-libNaviCore_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-libNaviCore_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A99291D29FC4D6B3AD701BE69C3C2551 /* MBSideInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBSideInfo.h; sourceTree = "<group>"; };
+		A9C20B0B0BBFE2D024B202334A7E76FB /* MBHttpTrafficMeter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBHttpTrafficMeter.h; sourceTree = "<group>"; };
+		AD0A82E7E5F1483A314F81DB522E1F3F /* MBRegulationRestriction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBRegulationRestriction.h; sourceTree = "<group>"; };
+		AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		AFEEF58F0DEAAEB8748A96FEAEE2463F /* MBMultipointOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBMultipointOverlay.h; sourceTree = "<group>"; };
+		B1BDEC8E87E1C51783E3F4A40BDB31BB /* MBDepartInFutureRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBDepartInFutureRouter.h; sourceTree = "<group>"; };
+		B21E8915CC13AE982805649D8E7FAD52 /* MBNaviSessionParams.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBNaviSessionParams.h; sourceTree = "<group>"; };
+		B3BAFE50261EDCF52C60E8700DCE370B /* MBRouteRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBRouteRequest.h; sourceTree = "<group>"; };
+		B400F2D89EA3DBC5032BCF8E33B3FD16 /* MBWelcomeInfoCollector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBWelcomeInfoCollector.h; sourceTree = "<group>"; };
+		B6798AD591805B134974845E0A04079F /* MBNaviSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBNaviSession.h; sourceTree = "<group>"; };
+		B70C505B15299DFB3E625124D9F27D94 /* MBRouteDetailItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBRouteDetailItem.h; sourceTree = "<group>"; };
+		B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
+		B900498C07178A93EF670A89A0D8BC14 /* MBCitySuggestionItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBCitySuggestionItem.h; sourceTree = "<group>"; };
+		B9379CB952D7A384DDAFD2850B02A58D /* MBNaviCoreEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBNaviCoreEngine.h; sourceTree = "<group>"; };
+		BC49F67D9E8FF406A4AB9361414E9F65 /* navicore.gitinfo */ = {isa = PBXFileReference; includeInIndex = 1; path = navicore.gitinfo; sourceTree = "<group>"; };
+		BDC559746F09DFEC42115FECF08CE0A7 /* MBObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBObject.h; sourceTree = "<group>"; };
+		BDF0FAEA53E09386146E0BEB04424B20 /* MBSpeedCameraZoneData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBSpeedCameraZoneData.h; sourceTree = "<group>"; };
+		C1897041B65DE1A970ED505405E5D4F6 /* MBDatastore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBDatastore.h; sourceTree = "<group>"; };
+		C255B2C1C7A1E388FBF7F37CE33DCC29 /* MBActiveLaneView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBActiveLaneView.h; sourceTree = "<group>"; };
+		C8D940D410C73FCE8DF3091AE791C8C4 /* MBAuth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBAuth.h; sourceTree = "<group>"; };
+		CB91AA2981EC43EA187A5653890D9D80 /* MBCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBCommon.h; sourceTree = "<group>"; };
+		CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		CD4F94A69E59EC8B79E2CC52485D670F /* MBTrackOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBTrackOverlay.h; sourceTree = "<group>"; };
+		CE9156325AFA20E9CC0DF14B1F96F3BA /* MBData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBData.h; sourceTree = "<group>"; };
+		CF362CB1A6E9298EF53C29EB54C76942 /* MBDataStoreBaseTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBDataStoreBaseTypes.h; sourceTree = "<group>"; };
+		D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		D188CCA944C11B52C101441970869244 /* MBReverseGeocoderResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBReverseGeocoderResult.h; sourceTree = "<group>"; };
+		D292492D970407D181192BEC42A359E5 /* MBTripRecorderV2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBTripRecorderV2.h; sourceTree = "<group>"; };
+		D595E080C9B801D0A978C26D824F97CF /* MBHttpConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBHttpConnection.h; sourceTree = "<group>"; };
+		D6BB16E08E262BA68F2D1DA93204083E /* MBCityDistributionItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBCityDistributionItem.h; sourceTree = "<group>"; };
+		D6EEB3CAD713B6CD73CD9340894D62F5 /* MBLogSystem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBLogSystem.h; sourceTree = "<group>"; };
+		D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		D93E0E3187E4FC19668368B0D4AA9AC1 /* MBNaviCoreBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBNaviCoreBase.h; sourceTree = "<group>"; };
+		D96AF8BB962F811303435070AF876D46 /* MBPolylineOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBPolylineOverlay.h; sourceTree = "<group>"; };
+		DC848D3BE1F77555B73AD0CE2997ABFE /* MBPoiTypeTree.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBPoiTypeTree.h; sourceTree = "<group>"; };
+		DCB6CD4636A325B60F0CDF695FB09C2E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E024413DB12D2831DFB591FBFD14DF55 /* Pods-libNaviCore_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-libNaviCore_Example-dummy.m"; sourceTree = "<group>"; };
+		E264B5F01B01A9306842F23731782E11 /* MBWmrBaseTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBWmrBaseTypes.h; sourceTree = "<group>"; };
+		E29BE9CA75732CD8ECCBC31F51D09847 /* libNaviCore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = libNaviCore.debug.xcconfig; sourceTree = "<group>"; };
+		E48A99D88196C2EDC1765C22235ACD28 /* MBTripRecorder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBTripRecorder.h; sourceTree = "<group>"; };
+		E658F388F01C72599CA75537950B6095 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EA7544BB675C3EE6BA80B62B09EFCB41 /* MBPoi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBPoi.h; sourceTree = "<group>"; };
+		EE7C8BC9A97580D69296F3BED7DC15C4 /* module.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = module.modulemap; sourceTree = "<group>"; };
+		EEC88EDB98849FE6FC15B74C245AE14D /* MBMapViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBMapViewDelegate.h; sourceTree = "<group>"; };
+		EF19DCA959B450F7D91C2D4A776D9984 /* MBRouteDetailBrowser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBRouteDetailBrowser.h; sourceTree = "<group>"; };
+		EF927A7A04413F4FD429E9D2CF9E6073 /* iNaviCore */ = {isa = PBXFileReference; includeInIndex = 1; path = iNaviCore; sourceTree = "<group>"; };
+		F12F2D79571B78EAA9DA940C5FE73E8C /* MBAvoidanceManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBAvoidanceManager.h; sourceTree = "<group>"; };
+		F3D1275115F978E642C8DF270096B7C2 /* MBPoiBaseTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBPoiBaseTypes.h; sourceTree = "<group>"; };
+		F3EC97ED84BA793C98D465569BD11D12 /* MBArrowOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBArrowOverlay.h; sourceTree = "<group>"; };
+		F4390D3C982F60FDE06F6CF7E4B3A1F7 /* MBRoutePlan.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBRoutePlan.h; sourceTree = "<group>"; };
+		F65B72B53C804E9249415D85F808E241 /* MBAdminBorder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBAdminBorder.h; sourceTree = "<group>"; };
+		F694E543B5CFE8DF334760EAFCA16588 /* MBRouteBriefRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBRouteBriefRequest.h; sourceTree = "<group>"; };
+		F70549926602DFB62C81189D912A5C73 /* Pods-libNaviCore_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-libNaviCore_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F7F85E24D4BAA0B8057BFD430032C79E /* MBPoiDetailFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBPoiDetailFetcher.h; sourceTree = "<group>"; };
+		F874FEBCDF56C4C81DF000280B294F6E /* MBRouteExplorer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBRouteExplorer.h; sourceTree = "<group>"; };
+		FAA3D1406A666D51590686193B25CFBD /* libNaviCore-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "libNaviCore-prefix.pch"; sourceTree = "<group>"; };
+		FC36D95A58A7846794C32CCBE6284539 /* MBNaviProgressMonitor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBNaviProgressMonitor.h; sourceTree = "<group>"; };
+		FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		FEFA3D168EBF930B8460E18170B9BF62 /* MBGpsLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBGpsLocation.h; sourceTree = "<group>"; };
+		FF7FBC42093067A683BDE330D0289EDD /* MBReverseGeocode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBReverseGeocode.h; sourceTree = "<group>"; };
+		FFA098ADB55F0EE799B6DBDC0CC8CB4A /* MBEnrouteRestrictionBrowser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBEnrouteRestrictionBrowser.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A169432C49CDE0837EED4CE649B84DD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				960FA6B3567D8B6E703936D76F680F09 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA1B1CEBB5F484F9AA43FF1AF93B9243 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				712CA444F519278CFBEE2508F6AE9CAA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB8B1A0B61CE4375564910DFA19FBB35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE3076989A54AFD2F2DA4F5F49937E9C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3B880388FF17A336FBF90E30E537508 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ECCAC52EF4C74E1032E0BC646BBE5B9 /* Foundation.framework in Frameworks */,
+				C9F76407497DF0205D7460B36D22259F /* QuartzCore.framework in Frameworks */,
+				875A310EAF4D0C136C3FFFF5E0335BE4 /* UIKit.framework in Frameworks */,
+				9D3C5E2F56838937146191468A893244 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		065221E62E152C512A73F669D4BC5BFE /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				64BC451EBE8506E2CDCBE49F2D136121 /* Client.h */,
+				6226605601A0573B89CE44E2D4C19A48 /* iNaviCore.h */,
+				7E19C8D25FFF8967386D604BB72556B2 /* MapbarGUID.h */,
+				32E52F7EFBD72E878A6615DDB3AA7D51 /* MB4SObject.h */,
+				62B34B6FEB19EB85853802B08C8BEE27 /* MB4SServices.h */,
+				C255B2C1C7A1E388FBF7F37CE33DCC29 /* MBActiveLaneView.h */,
+				F65B72B53C804E9249415D85F808E241 /* MBAdminBorder.h */,
+				1845817BD418CA0FA14ACA9A29590DC2 /* MBAdminSpeaker.h */,
+				A3A635B5AD68A5C60DB1703A5348D803 /* MBAnnotation.h */,
+				F3EC97ED84BA793C98D465569BD11D12 /* MBArrowOverlay.h */,
+				534FA8BF85083A486ED3C67F905199DF /* MBArrowRenderer.h */,
+				C8D940D410C73FCE8DF3091AE791C8C4 /* MBAuth.h */,
+				66C9D3B9B3F4F49EBEFE66BF625682EA /* MBAvoidanceArea.h */,
+				F12F2D79571B78EAA9DA940C5FE73E8C /* MBAvoidanceManager.h */,
+				0922362BAEF22B8F5EABA64A33B814C2 /* MBCameraEngine.h */,
+				2D8AD7860780DD56D57EE1800C148534 /* MBCarSensor.h */,
+				6CA4AEACB173F925FFDCA8FD9D1E8ADA /* MBCircleOverlay.h */,
+				D6BB16E08E262BA68F2D1DA93204083E /* MBCityDistributionItem.h */,
+				2340BAEA7BC048DC1FD1D60973FCAD38 /* MBCityGroupItem.h */,
+				605FE1BB79887F91407EB08A3003AF58 /* MBCityRegulation.h */,
+				B900498C07178A93EF670A89A0D8BC14 /* MBCitySuggestionItem.h */,
+				97F26A8BAA409F2B865051BA29DD971D /* MBColorfulPolylineOverlay.h */,
+				CB91AA2981EC43EA187A5653890D9D80 /* MBCommon.h */,
+				19A684895EF1CA2CEACD1E421293C676 /* MBCompassOverlay.h */,
+				3A2244D4F59127844C13BD8A802934C4 /* MBCqPoint.h */,
+				6BABC6C15D5B1D003009CA704F1355CA /* MBDashboard.h */,
+				CE9156325AFA20E9CC0DF14B1F96F3BA /* MBData.h */,
+				0D3139D63554A17616860F265CCB3470 /* MBDataCommon.h */,
+				C1897041B65DE1A970ED505405E5D4F6 /* MBDatastore.h */,
+				CF362CB1A6E9298EF53C29EB54C76942 /* MBDataStoreBaseTypes.h */,
+				A5E25D0FA6202974064B7CE5BFAE2045 /* MBDatastoreItem.h */,
+				629A002DB3EBBE3E026771C455FF77D2 /* MBDataUpdateTask.h */,
+				B1BDEC8E87E1C51783E3F4A40BDB31BB /* MBDepartInFutureRouter.h */,
+				A673AAE2602C61492CAFED910D54247F /* MBEnrouteCityFetcher.h */,
+				A7E76EAC2E92B0EF16C52945EDC60D2F /* MBEnroutePoiSearchRequest.h */,
+				66058B4D4B002C410B0553826B25178A /* MBEnroutePoiSearchSession.h */,
+				1A989397669756A3BF0F4FCC608D9EFD /* MBEnrouteRegulationBrowser.h */,
+				FFA098ADB55F0EE799B6DBDC0CC8CB4A /* MBEnrouteRestrictionBrowser.h */,
+				61FCBBD35771977865EE90C4C04C1969 /* MBEnrouteTiSpeaker.h */,
+				353D3C4EBFEB38B6DAE125E064DC7E4D /* MBFavoritePoiLayer.h */,
+				24A747E099F3B1D7A12935BE30CEAC8C /* MBGpsInfo.h */,
+				FEFA3D168EBF930B8460E18170B9BF62 /* MBGpsLocation.h */,
+				4DF8779B73EAB1C3CF12EE228828337C /* MBGpsSimulator.h */,
+				2F03E882FCE05C6D98FCE8A5A71F7B35 /* MBGuidanceIconView.h */,
+				7B98214BC52F5326FA1F5FE13D89B843 /* MBGuidanceText.h */,
+				4073AC412FDEA71BFB519E4FAC8F10AB /* MBGuidanceTextGenerator.h */,
+				254A65B780FC4D51D95D4FECED90ECB8 /* MBHighwayGuide.h */,
+				7935C1C21651301ECFC79459C2454CE6 /* MBHighwayGuideItem.h */,
+				5421E8BDA3321A743C2F5524B4DBAF4A /* MBHighwayGuideText.h */,
+				D595E080C9B801D0A978C26D824F97CF /* MBHttpConnection.h */,
+				A9C20B0B0BBFE2D024B202334A7E76FB /* MBHttpTrafficMeter.h */,
+				44ECF08E79A18216B080C968F3E51F63 /* MBIconOverlay.h */,
+				72C473985B411A15A78B6A539F9B2957 /* MBIconRepo.h */,
+				9B60C299F0E2F526C8EF9B9F178D542E /* MBImNaviLogic.h */,
+				9DAB3757EF1844639C6DD99F14067EE7 /* MBJunctionView.h */,
+				43EA99D385B01E2F0F25F437229EE769 /* MBKeywordSuggestionItem.h */,
+				77C34740ACD66A66072EA39555B023B8 /* MBLaneModel.h */,
+				0E351A0F2957EA76EF5EB7775CAD3623 /* MBLaneUsage.h */,
+				54798D46A8AD65D5EDAB10BD7367FDD3 /* MBLocationManager.h */,
+				55691C13B3C320C96A80B8C608BC09B6 /* MBLocationSimulator.h */,
+				D6EEB3CAD713B6CD73CD9340894D62F5 /* MBLogSystem.h */,
+				192C1984FCF5711E53F0F97AD92FA867 /* MBManeuver.h */,
+				1CB1EBBCD12837370B96A94949F9FDF8 /* MBMap.h */,
+				23B0823460602248DA2D2CB246985C03 /* MBMapBaseType.h */,
+				2B9BCD99284320BA79DA54B7E674A90D /* MBMapState.h */,
+				A027662866B82521AD128BE123B5D7FF /* MBMapUtils.h */,
+				6474698C6AEECC56667BE9C5B21238FF /* MBMapView.h */,
+				EEC88EDB98849FE6FC15B74C245AE14D /* MBMapViewDelegate.h */,
+				36C94779FE32A75FCC51CE45F170BBBF /* MBModelOverlay.h */,
+				AFEEF58F0DEAAEB8748A96FEAEE2463F /* MBMultipointOverlay.h */,
+				03532A40F437DE3D16A5BEAFFB101D2C /* MBNavi.h */,
+				0DE6C220B70AFBC581E1FF6EC3B2B60D /* MBNaviBaseTypes.h */,
+				D93E0E3187E4FC19668368B0D4AA9AC1 /* MBNaviCoreBase.h */,
+				B9379CB952D7A384DDAFD2850B02A58D /* MBNaviCoreEngine.h */,
+				2617B43881E4A1842F6A37F387D69FC8 /* MBNaviDataDownload.h */,
+				4E56E524EBA70167C59F733238BC9E9C /* MBNaviDataEntity.h */,
+				FC36D95A58A7846794C32CCBE6284539 /* MBNaviProgressMonitor.h */,
+				B6798AD591805B134974845E0A04079F /* MBNaviSession.h */,
+				6BF17137F1E23279B73ADB254CDA51AB /* MBNaviSessionData.h */,
+				1A43057122A8EA1A588B593972B086AD /* MBNaviSessionDelegate.h */,
+				B21E8915CC13AE982805649D8E7FAD52 /* MBNaviSessionParams.h */,
+				5EA5DCB70289CB6F92FD7F9682A5FC39 /* MBNaviSpeaker.h */,
+				45ABDEBB0037C85429A829B0E4918AD8 /* MBNetworkMonitor.h */,
+				BDC559746F09DFEC42115FECF08CE0A7 /* MBObject.h */,
+				6E084C40134D69F9F4371704DF821070 /* MBOverlay.h */,
+				1CE4E39EAC215C77B130E724C35FC514 /* MBPastEtaQuerier.h */,
+				8752D0C6DFC2A489E5AF497A4ACAF5BB /* MBPedestrianGuide.h */,
+				EA7544BB675C3EE6BA80B62B09EFCB41 /* MBPoi.h */,
+				F3D1275115F978E642C8DF270096B7C2 /* MBPoiBaseTypes.h */,
+				F7F85E24D4BAA0B8057BFD430032C79E /* MBPoiDetailFetcher.h */,
+				4A9DC13769031F8D99C0213532E43C57 /* MBPoiDetailRequest.h */,
+				8F602ABFFB7C7A7235806C1BEA022CC0 /* MBPoiFavorite.h */,
+				91706BA179774675430B3FF725ECB735 /* MBPoiFavoriteItem.h */,
+				81694AC097217D0D7FF02B8B611D62A9 /* MBPoiFavorites.h */,
+				0CC0FA7443F7507569781CA25303F96E /* MBPoiItem.h */,
+				1ED48C94E5DAA25D7754D4C0C4614727 /* MBPoiSearchRequest.h */,
+				9E500B324CFEBE021E994BC55C0FF115 /* MBPoiSearchResult.h */,
+				7D0D0E103EB6FDD0B88B39E4071BFCD0 /* MBPoiSearchResultLayer.h */,
+				94307DA1D0EF67B03D1709DB2E343CD2 /* MBPoiSearchSession.h */,
+				A7438A2389FBF933DC2EFCDC1019D355 /* MBPoiSuggest.h */,
+				3B6E71AB25BC8718A13BDF0C830C0729 /* MBPoiTypeID.h */,
+				101A6201ADA860DD6E9993A7C948BA8D /* MBPoiTypeManager.h */,
+				47352FA2D8055C9CD231AB3E2A936CC4 /* MBPoiTypeObject.h */,
+				DC848D3BE1F77555B73AD0CE2997ABFE /* MBPoiTypeTree.h */,
+				27B2D0392ADA745A95A40546D0BB8971 /* MBPolygonOverlay.h */,
+				0F750F10F78B8D04BF61FF897C81D28E /* MBPolyline.h */,
+				D96AF8BB962F811303435070AF876D46 /* MBPolylineOverlay.h */,
+				873B3075AEC530AAB14584B1C28C5AC7 /* MBReal3dView.h */,
+				6EA17FA07264E5402DDFAD9BDCCC6B36 /* MBRegionPoiItem.h */,
+				AD0A82E7E5F1483A314F81DB522E1F3F /* MBRegulationRestriction.h */,
+				6F222CA5BA9995F0C1876AD1E0B40E69 /* MBRegulationRestrictionBrowser.h */,
+				59DF8EFAF660977B929BD02D0D16CDC3 /* MBRegulationRestrictionId.h */,
+				FF7FBC42093067A683BDE330D0289EDD /* MBReverseGeocode.h */,
+				3BBA8A43AF4374DCEFC1DE03F04D766E /* MBReverseGeocoder.h */,
+				D188CCA944C11B52C101441970869244 /* MBReverseGeocoderResult.h */,
+				6841E2D4C7CEA4569AE04EAB8A3D60F0 /* MBRoadCamera.h */,
+				A79E5497DCDD242DFCFC350E317C55F3 /* MBRouteBase.h */,
+				F694E543B5CFE8DF334760EAFCA16588 /* MBRouteBriefRequest.h */,
+				76C1DEAFD8527E624E10A9B92E99D8C6 /* MBRouteCollection.h */,
+				0D50662F38BB335C6DD68E623C60D135 /* MBRouteDescriptionItem.h */,
+				EF19DCA959B450F7D91C2D4A776D9984 /* MBRouteDetailBrowser.h */,
+				B70C505B15299DFB3E625124D9F27D94 /* MBRouteDetailItem.h */,
+				F874FEBCDF56C4C81DF000280B294F6E /* MBRouteExplorer.h */,
+				85B25663DED8C2BB990F6AA778A9E528 /* MBRouteOverlay.h */,
+				F4390D3C982F60FDE06F6CF7E4B3A1F7 /* MBRoutePlan.h */,
+				A77D46AF9C5ADA63897285F79D239D0D /* MBRoutePointCollector.h */,
+				B3BAFE50261EDCF52C60E8700DCE370B /* MBRouteRequest.h */,
+				3E69B961316D698FCFC169BC8E5EE8EF /* MBRouteWanderer.h */,
+				185E6543374BBF7D7895272E5CAF6733 /* MBSatellite.h */,
+				A99291D29FC4D6B3AD701BE69C3C2551 /* MBSideInfo.h */,
+				2DEEBB7815FC81B39026EB697FA4F5BC /* MBSigninModule.h */,
+				00751E332B0BE8B265CE8D0BF86E9C54 /* MBSmallPassengerCarRegulationCityListFilter.h */,
+				2DD2C3EE31C5A81C51E6BA9FDC1FE5C9 /* MBSoundArbiter.h */,
+				BDF0FAEA53E09386146E0BEB04424B20 /* MBSpeedCameraZoneData.h */,
+				86C3686AD4273B1ED65BC4335BEA3C70 /* MBSpeedingReporter.h */,
+				0BB8B7D577F9EB6F4F71083593EBDB41 /* MBTopicFilterItem.h */,
+				030461D3A9268C18874B43E53AAEB8CA /* MBTrackManager.h */,
+				CD4F94A69E59EC8B79E2CC52485D670F /* MBTrackOverlay.h */,
+				E48A99D88196C2EDC1765C22235ACD28 /* MBTripRecorder.h */,
+				D292492D970407D181192BEC42A359E5 /* MBTripRecorderV2.h */,
+				3BE320B0E3E18DBEEEEBAF247007A4F2 /* MBUserCamera.h */,
+				4C9FFFF02D0092838D65EAA2D5A669F6 /* MBUtils.h */,
+				5CE9E89FDCC9040D2B2894F4E4442EAD /* MBVehicleInfo.h */,
+				5EDADF922BC985801D492AD68784A6D6 /* MBVehicleInfoAdvanced.h */,
+				93344F0749F4B8A31A8FD362D86F31AA /* MBVehicleRestrictionItem.h */,
+				B400F2D89EA3DBC5032BCF8E33B3FD16 /* MBWelcomeInfoCollector.h */,
+				8E21917CF6D778F0125DA3BAEFE22759 /* MBWmr.h */,
+				E264B5F01B01A9306842F23731782E11 /* MBWmrBaseTypes.h */,
+				14C36F3D9E17A64E6174B16415AF16EF /* MBWmrNode.h */,
+				0158EF84AD8E1884DBAAB7B84D5B3A78 /* MBWorldManager.h */,
+			);
+			name = Headers;
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		13C10727388066D3937321ABE5A78440 /* Pods-libNaviCore_Example */ = {
+			isa = PBXGroup;
+			children = (
+				804B285CA1FF55D6CE2EA1B4D65C16A7 /* Pods-libNaviCore_Example.modulemap */,
+				057086CBF9569D521F73E93C68068990 /* Pods-libNaviCore_Example-acknowledgements.markdown */,
+				9E704BD541F8CCA8BDDB8BFBDE5402F7 /* Pods-libNaviCore_Example-acknowledgements.plist */,
+				E024413DB12D2831DFB591FBFD14DF55 /* Pods-libNaviCore_Example-dummy.m */,
+				82C5B02FA951790E058FF0C50D0C4D0C /* Pods-libNaviCore_Example-frameworks.sh */,
+				8BD5B0AED9CAD7A0D1F8B4937515FDD8 /* Pods-libNaviCore_Example-Info.plist */,
+				08102EEFE91E3B6207E5E90931C420A8 /* Pods-libNaviCore_Example-umbrella.h */,
+				30C07DF1298612103E61D3AFB123F331 /* Pods-libNaviCore_Example.debug.xcconfig */,
+				A91ED8B25E35E1137A07865982EA715F /* Pods-libNaviCore_Example.release.xcconfig */,
+			);
+			name = "Pods-libNaviCore_Example";
+			path = "Target Support Files/Pods-libNaviCore_Example";
+			sourceTree = "<group>";
+		};
+		14FADD70174E503F078D1B719D9D1123 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BC49F67D9E8FF406A4AB9361414E9F65 /* navicore.gitinfo */,
+			);
+			name = Resources;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		292BF467F7F248E3C5A74E63F90ABCDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase */,
+				4BFB625D3F78EF06312975D98EBEAD02 /* libNaviCore */,
+				81B6F8EBBBBCE2090B33D2048F51595D /* Pods-libNaviCore_Example */,
+				43632428D179F3CBA6A1C3502441F7FA /* Pods-libNaviCore_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F53153F6A74EC73FDE753B5B8B7322A /* A */ = {
+			isa = PBXGroup;
+			children = (
+				EF927A7A04413F4FD429E9D2CF9E6073 /* iNaviCore */,
+				065221E62E152C512A73F669D4BC5BFE /* Headers */,
+				8B14751F662660F8DC62B2B5BF3D227C /* Modules */,
+				14FADD70174E503F078D1B719D9D1123 /* Resources */,
+			);
+			name = A;
+			path = A;
+			sourceTree = "<group>";
+		};
+		431232A3513309E190459A939C3176DD /* Versions */ = {
+			isa = PBXGroup;
+			children = (
+				2F53153F6A74EC73FDE753B5B8B7322A /* A */,
+			);
+			name = Versions;
+			path = libNaviCore/Classes/iNaviCore.framework/Versions;
+			sourceTree = "<group>";
+		};
+		4BA2479549DD918290454B1CDCD0B92B /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */,
+				277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */,
+				88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */,
+				6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */,
+				AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */,
+				7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */,
+				99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */,
+				0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */,
+				656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */,
+				235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */,
+				96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */,
+				4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */,
+				284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */,
+				D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		4BA5B459023180624DB5370F65DB3039 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				361B42395CE4622534FB9026DEB1E74A /* libNaviCore.modulemap */,
+				5FC29F6D7901B83B717087EC7EE47385 /* libNaviCore-dummy.m */,
+				0B108885F5B08798B9A97FE4032F61BA /* libNaviCore-Info.plist */,
+				FAA3D1406A666D51590686193B25CFBD /* libNaviCore-prefix.pch */,
+				2A37941ED4D4E032D6CC53FC4E95B2C3 /* libNaviCore-umbrella.h */,
+				E29BE9CA75732CD8ECCBC31F51D09847 /* libNaviCore.debug.xcconfig */,
+				3A722E0DFBB320C33AFC19B8D2B3F603 /* libNaviCore.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/libNaviCore";
+			sourceTree = "<group>";
+		};
+		67D8FF1D880A56DF37ABFA859B6A95EB /* Pods-libNaviCore_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1529C42823386167C67D99FE17CCABC6 /* Pods-libNaviCore_Tests.modulemap */,
+				F70549926602DFB62C81189D912A5C73 /* Pods-libNaviCore_Tests-acknowledgements.markdown */,
+				2E43FD9706D57E192751E39A20767845 /* Pods-libNaviCore_Tests-acknowledgements.plist */,
+				0A1144F9C81405825D4F5A8E67845498 /* Pods-libNaviCore_Tests-dummy.m */,
+				4A4A8B2B2C9D9EFAC6082745D2B2189D /* Pods-libNaviCore_Tests-frameworks.sh */,
+				A5212AD2430A39275CBBBDE9386313FB /* Pods-libNaviCore_Tests-Info.plist */,
+				042EB96234B5650F94870B39E2756726 /* Pods-libNaviCore_Tests-umbrella.h */,
+				37AB3FF2838BE693D5B73E536136F6A9 /* Pods-libNaviCore_Tests.debug.xcconfig */,
+				3BA0ABAD8890E4572BE9B45407A70CB4 /* Pods-libNaviCore_Tests.release.xcconfig */,
+			);
+			name = "Pods-libNaviCore_Tests";
+			path = "Target Support Files/Pods-libNaviCore_Tests";
+			sourceTree = "<group>";
+		};
+		7946DCD2015D7A50B1910B40D7233371 /* libNaviCore */ = {
+			isa = PBXGroup;
+			children = (
+				8186C3F26890CFF67380215B251893C0 /* iNaviCore */,
+				A4C58EF1302E3320DCA28F18A4B6F20E /* Pod */,
+				4BA5B459023180624DB5370F65DB3039 /* Support Files */,
+				431232A3513309E190459A939C3176DD /* Versions */,
+			);
+			name = libNaviCore;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		8B14751F662660F8DC62B2B5BF3D227C /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				EE7C8BC9A97580D69296F3BED7DC15C4 /* module.modulemap */,
+			);
+			name = Modules;
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */ = {
+			isa = PBXGroup;
+			children = (
+				3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */,
+			);
+			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		A4C58EF1302E3320DCA28F18A4B6F20E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9FD9A52541D53571D663F4ADB48EA1A4 /* libNaviCore.podspec */,
+				DCB6CD4636A325B60F0CDF695FB09C2E /* LICENSE */,
+				2BF9022F7903138B8C5BC7D8972EFC5F /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */,
+				1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */,
+				B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */,
+				D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */,
+				8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */,
+				9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */,
+				4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FBSnapshotTestCase";
+			sourceTree = "<group>";
+		};
+		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB2668559AE577E6E8078C0C291AD417 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD2D60DE56CBB8C87BA07E0C1CCD0592 /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				4BA2479549DD918290454B1CDCD0B92B /* Core */,
+				B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */,
+				906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */,
+			);
+			name = FBSnapshotTestCase;
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		C949C21470BA3EBC2EFF85B001653396 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7946DCD2015D7A50B1910B40D7233371 /* libNaviCore */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				C949C21470BA3EBC2EFF85B001653396 /* Development Pods */,
+				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
+				E81A37DBDE41E671312C56736544E2FA /* Pods */,
+				292BF467F7F248E3C5A74E63F90ABCDC /* Products */,
+				CF8AC3852ECFF657D6624B087B400A46 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CF8AC3852ECFF657D6624B087B400A46 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				13C10727388066D3937321ABE5A78440 /* Pods-libNaviCore_Example */,
+				67D8FF1D880A56DF37ABFA859B6A95EB /* Pods-libNaviCore_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E81A37DBDE41E671312C56736544E2FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BD2D60DE56CBB8C87BA07E0C1CCD0592 /* FBSnapshotTestCase */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FB2668559AE577E6E8078C0C291AD417 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */,
+				3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */,
+				1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */,
+				E658F388F01C72599CA75537950B6095 /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4BCC402A595113D3E4E25B6350D680E5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58F4DFC969ED4D1930B864274617C9C5 /* Pods-libNaviCore_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E8BA6350AF952243EADD993352B740A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A1D148E1B4B71A717570A4ABCFDCB5D /* Pods-libNaviCore_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86712E96202E9E065988CA23BD421800 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC12CE1779096A044B6A616C90F71F27 /* Client.h in Headers */,
+				FD3C0DBF12F11D629A7539B3364A12F9 /* iNaviCore.h in Headers */,
+				230F02CBC8DDCAFD2EAC99D9A4B98425 /* libNaviCore-umbrella.h in Headers */,
+				81E67489B72A3D126A5371516E09977F /* MapbarGUID.h in Headers */,
+				B25BCC9160B34A30F4C7E7EF7915769A /* MB4SObject.h in Headers */,
+				BE1D35670FC4D1EC6B60A3DBB8E19893 /* MB4SServices.h in Headers */,
+				3F9A435A8073389A78D70BDFBBA2FD93 /* MBActiveLaneView.h in Headers */,
+				CFB3AB3D67558B4DEAE72AA6983BAC59 /* MBAdminBorder.h in Headers */,
+				E3EB8B82874C904738DB14CBBB329767 /* MBAdminSpeaker.h in Headers */,
+				AFBE4E216D4A7FA858679BF5589C6D99 /* MBAnnotation.h in Headers */,
+				A7CE6ADDC3986399D4F4CF8F6D823558 /* MBArrowOverlay.h in Headers */,
+				543131BB0006A0E9A4397E4A807070BE /* MBArrowRenderer.h in Headers */,
+				C7F4737541CE3CAC574E010E66706950 /* MBAuth.h in Headers */,
+				21939432255B626EE38920A76CAC7AFB /* MBAvoidanceArea.h in Headers */,
+				F8DC88EACB46918AFB5B5CE85F18B246 /* MBAvoidanceManager.h in Headers */,
+				384C7BB4264293BCC23890FEAA74522D /* MBCameraEngine.h in Headers */,
+				287213CB6F828F622A6AAA497BD5097A /* MBCarSensor.h in Headers */,
+				0FF6BF9353089E66B8F0382C5891455A /* MBCircleOverlay.h in Headers */,
+				BB2B0DC74FC01E54DA41C686E7635651 /* MBCityDistributionItem.h in Headers */,
+				4F4C260BF4BA9D7F0F8CA87C356F4A79 /* MBCityGroupItem.h in Headers */,
+				7A75189D6D2ACFF8804DA70916F57FFA /* MBCityRegulation.h in Headers */,
+				300F198528C4FCF67A5A4302334FE7E7 /* MBCitySuggestionItem.h in Headers */,
+				2D1F9EA3F8A0B2558A4E5F749920CCF4 /* MBColorfulPolylineOverlay.h in Headers */,
+				1BBEDB28B4237AD2E18E4D250BCEA540 /* MBCommon.h in Headers */,
+				2F898A05F6CCF93F3A9C7903352FDF91 /* MBCompassOverlay.h in Headers */,
+				6C46B9F59F061B2E8E899DC380A5E578 /* MBCqPoint.h in Headers */,
+				F40E5291C7C1A57772FDAFE29F1C7675 /* MBDashboard.h in Headers */,
+				05F7E2B520B345F9D8079D81B4587767 /* MBData.h in Headers */,
+				FB8025BD765EF857024FFFAE252CFB17 /* MBDataCommon.h in Headers */,
+				4CC7048A034CCE7CE8D726D9B05978B3 /* MBDatastore.h in Headers */,
+				17EFC44DC413124C34A148BABBD3FDEC /* MBDataStoreBaseTypes.h in Headers */,
+				E868EBE7C4DEEB103D363254DDC422E8 /* MBDatastoreItem.h in Headers */,
+				E1B1680F29F03165AF1DA7B46C97E3CD /* MBDataUpdateTask.h in Headers */,
+				504FDC20A12EE7CA936832E627BB9772 /* MBDepartInFutureRouter.h in Headers */,
+				8C2C0FA4FF64C94E2D11E3D381602811 /* MBEnrouteCityFetcher.h in Headers */,
+				CEE0C8168CBC3EDA185EAED36E4D146C /* MBEnroutePoiSearchRequest.h in Headers */,
+				16B6868462F924FC6D66FF73F3DCECA1 /* MBEnroutePoiSearchSession.h in Headers */,
+				72B6FE76E4B131EF554BA17BF637B83C /* MBEnrouteRegulationBrowser.h in Headers */,
+				FD17F299D41DA1BFCCDA36F97171425C /* MBEnrouteRestrictionBrowser.h in Headers */,
+				B03AAD18048A496A5844EAA55339173E /* MBEnrouteTiSpeaker.h in Headers */,
+				B0B543EEED3728AF1A557DBA543F9AF0 /* MBFavoritePoiLayer.h in Headers */,
+				BD9209218BFED51627D038661506BBEB /* MBGpsInfo.h in Headers */,
+				6EF211B94982CFC26F0DC4D482CF3395 /* MBGpsLocation.h in Headers */,
+				EB67254E8618A31AD669E91DC89AFF86 /* MBGpsSimulator.h in Headers */,
+				6C30E5D6AE0FA737E2DF4474BC38C30F /* MBGuidanceIconView.h in Headers */,
+				AA1D1209A51EA9ED3DFB319E36E889EC /* MBGuidanceText.h in Headers */,
+				ECE9D96A3EEE1772503E85054263ADAB /* MBGuidanceTextGenerator.h in Headers */,
+				08B5B134CB6D948F28D89A0BA05098F7 /* MBHighwayGuide.h in Headers */,
+				2ECB938C90558FC656AB27F0D1D5FB98 /* MBHighwayGuideItem.h in Headers */,
+				C3B1FFCABE94362CFA04CFE005BEB7D5 /* MBHighwayGuideText.h in Headers */,
+				74980463C3626086DCD6EE169FA1B26C /* MBHttpConnection.h in Headers */,
+				950943200D4AAC241C7F43AA46E97F98 /* MBHttpTrafficMeter.h in Headers */,
+				E6955AA0B7812A8B3C7AE6ECF1012685 /* MBIconOverlay.h in Headers */,
+				F5A000B3982B02B9F6BBB3B9722D6DA6 /* MBIconRepo.h in Headers */,
+				0B7D14EE91D16468687A16A8E2396BA8 /* MBImNaviLogic.h in Headers */,
+				4D98B8B32E93FA0682D4F310C1D89FF3 /* MBJunctionView.h in Headers */,
+				E7AE0B4EDF23F33B9BC563EBE79996C1 /* MBKeywordSuggestionItem.h in Headers */,
+				B6AB4515CBF03096EC19DB83DBA1A62E /* MBLaneModel.h in Headers */,
+				531403F4666AF84017720C046C87E0E0 /* MBLaneUsage.h in Headers */,
+				1C81DB6D19EBF30AC3CB4CC48ACBC926 /* MBLocationManager.h in Headers */,
+				8A263248A74365B3D7F1F3FACFEB4B0D /* MBLocationSimulator.h in Headers */,
+				BB392E6EAC3EBFCE1E08A833AA3BAF09 /* MBLogSystem.h in Headers */,
+				BC46723E3CD6600B439761731E826CBA /* MBManeuver.h in Headers */,
+				526D14FE756521569CB87B6A5D010089 /* MBMap.h in Headers */,
+				B4C171DDB63AA80CE4257502157DCF4C /* MBMapBaseType.h in Headers */,
+				74684EB4643C8EC06F2CD17B9D811A8F /* MBMapState.h in Headers */,
+				F973B13EA6426B91C849E9B4D73F1EFD /* MBMapUtils.h in Headers */,
+				50E364F1670F1F82705F5D5890DDBA04 /* MBMapView.h in Headers */,
+				8272FF2E16EE4D35EFFDC5BFC0996C82 /* MBMapViewDelegate.h in Headers */,
+				8DDF5C363C07632AEDCCC26A849E1AD9 /* MBModelOverlay.h in Headers */,
+				BCD94CDCE045276B7E890AC6321F31A7 /* MBMultipointOverlay.h in Headers */,
+				CEE5162EBCD00B45F16C4A038B24EECA /* MBNavi.h in Headers */,
+				74B96FB15EE39CCA838A0328DD567E60 /* MBNaviBaseTypes.h in Headers */,
+				DB1A7415E6DA203C354811F7EAB2E931 /* MBNaviCoreBase.h in Headers */,
+				165B81871D58B8873D3F757D2506C68C /* MBNaviCoreEngine.h in Headers */,
+				62E237F88F2E76F4A40A309BEF49C762 /* MBNaviDataDownload.h in Headers */,
+				27E606CB53BC23156BF899064E18C791 /* MBNaviDataEntity.h in Headers */,
+				A38469B6091D04A5B19B7F444EA77BD4 /* MBNaviProgressMonitor.h in Headers */,
+				B1CC3C9EC0CA3BDE771BDE7B24D4A3BC /* MBNaviSession.h in Headers */,
+				32CE43F3C2E1F3B9A16DC02FD33D424C /* MBNaviSessionData.h in Headers */,
+				8A226F410EA13502E4A90E86F3213340 /* MBNaviSessionDelegate.h in Headers */,
+				037856CD17FA7AF0D2422B9F7CCCDB1E /* MBNaviSessionParams.h in Headers */,
+				95925306C31DFA5B8AC3ABF078D91002 /* MBNaviSpeaker.h in Headers */,
+				E4E38CB2CD8E998DEA5C51B6EB894A56 /* MBNetworkMonitor.h in Headers */,
+				947159408E0AFE328C04B2B12DDF8B27 /* MBObject.h in Headers */,
+				18A71953691B782561837C00D3D8BF7D /* MBOverlay.h in Headers */,
+				E2AF9947FECA1B06259290E4132C46EE /* MBPastEtaQuerier.h in Headers */,
+				3945341C9A178E8A42CAEE93280BBE8D /* MBPedestrianGuide.h in Headers */,
+				1D1F21934BF02FB7540B8A6191C49487 /* MBPoi.h in Headers */,
+				C93691B76F51A0F61CCCAC5D78E9F194 /* MBPoiBaseTypes.h in Headers */,
+				EF0DE62654F88D38CFEBA86F10C07ACC /* MBPoiDetailFetcher.h in Headers */,
+				8610E92687A33E0E68CC05BFDD3BD92F /* MBPoiDetailRequest.h in Headers */,
+				273EDC4A7729FBBBE09CC45338BFB496 /* MBPoiFavorite.h in Headers */,
+				F4ED4F03F9F7875019DF184D0D51596E /* MBPoiFavoriteItem.h in Headers */,
+				0FAEA2EC1A54C1779AD021A0823F340F /* MBPoiFavorites.h in Headers */,
+				253752E8EB26C0F4DA69C888C80B5D66 /* MBPoiItem.h in Headers */,
+				1549CFCF1AF0E1F69E195D21B9E9D4D2 /* MBPoiSearchRequest.h in Headers */,
+				629A900DD489D3ED176FB1DDCA0A3A4D /* MBPoiSearchResult.h in Headers */,
+				2538F4EF2D3F1B8635125BF08AAB77F9 /* MBPoiSearchResultLayer.h in Headers */,
+				0D82CE1864D3FEA019BFE9ACB2CFCEF0 /* MBPoiSearchSession.h in Headers */,
+				EF645EB4C4DAA0ADAAB40829083C90D6 /* MBPoiSuggest.h in Headers */,
+				A5F964E3909AD3D15ABB9E383B3F3E72 /* MBPoiTypeID.h in Headers */,
+				D9053381BDDFBEE1A68D3436E19DF918 /* MBPoiTypeManager.h in Headers */,
+				719A4505F332154181F835502CE558F9 /* MBPoiTypeObject.h in Headers */,
+				96BD6A640604052D5F7EE89551DEAD7D /* MBPoiTypeTree.h in Headers */,
+				E5275D74632D2A74439ED649E0133C1D /* MBPolygonOverlay.h in Headers */,
+				44024C360AE115C83CA1DDDF164C568A /* MBPolyline.h in Headers */,
+				4F868797EF59C8EBBF9AD5B423461433 /* MBPolylineOverlay.h in Headers */,
+				A1C42B72C414AE0EA0EC5117A09B840A /* MBReal3dView.h in Headers */,
+				54FFEA58C69AABA86962019D1613051C /* MBRegionPoiItem.h in Headers */,
+				3D1BCA9EF66D6230656FE2BBAC86EBC6 /* MBRegulationRestriction.h in Headers */,
+				B714EF40F51D3D0AFEB0F27FEFAE21BE /* MBRegulationRestrictionBrowser.h in Headers */,
+				BDD9DF2A6B241051EF27AE9A0A421B43 /* MBRegulationRestrictionId.h in Headers */,
+				CD1FB43CD1D61A8D39430F020F71CFB0 /* MBReverseGeocode.h in Headers */,
+				1A25D571F4F23298A726555800662E4A /* MBReverseGeocoder.h in Headers */,
+				4F90D9921785A3262F2E9195274AB509 /* MBReverseGeocoderResult.h in Headers */,
+				E64F53FEC720CDE36DE51BE01B5BBE55 /* MBRoadCamera.h in Headers */,
+				7C0ADF32BAE1E047338B7F9C6D49C3BB /* MBRouteBase.h in Headers */,
+				B30B223D0500F63FF2F7CBA11DA4A5EB /* MBRouteBriefRequest.h in Headers */,
+				2CD9D42314EBF0674B0C887AB69A6F72 /* MBRouteCollection.h in Headers */,
+				DC529769F06C660EFDC3730DD5FCAF42 /* MBRouteDescriptionItem.h in Headers */,
+				6FBDC2EDE695C42E9A6998FCF118A800 /* MBRouteDetailBrowser.h in Headers */,
+				B25AF8A733CF8A496FC4E1056A0F38CC /* MBRouteDetailItem.h in Headers */,
+				FD7E7E02C19784989050A836F720980A /* MBRouteExplorer.h in Headers */,
+				9D1D1543586A9D20B3F54993B15B4D96 /* MBRouteOverlay.h in Headers */,
+				9A22CB593FA19C9B585C49A7E1EAD493 /* MBRoutePlan.h in Headers */,
+				E32EC21B95B5AFD5D6CF75DDF5F1B572 /* MBRoutePointCollector.h in Headers */,
+				322ABE2F1633E9F9E16CBC7E77D529F6 /* MBRouteRequest.h in Headers */,
+				615E456A68A3C4B44156071A4FEC6F63 /* MBRouteWanderer.h in Headers */,
+				ED3515FEF3C65955985BE1435412C6AD /* MBSatellite.h in Headers */,
+				1CB076661976F991948E8D11D5FB9C10 /* MBSideInfo.h in Headers */,
+				048D0758450A04450FC92A5EE55A406C /* MBSigninModule.h in Headers */,
+				4E7AE12013B486FE5F0EEBADABA3F752 /* MBSmallPassengerCarRegulationCityListFilter.h in Headers */,
+				172102380928384CE5325E6F6ED1BB05 /* MBSoundArbiter.h in Headers */,
+				477C57C25A11CDD7725906D40259DC82 /* MBSpeedCameraZoneData.h in Headers */,
+				5E47EF287DCB89489DBBFE0D2DD80F97 /* MBSpeedingReporter.h in Headers */,
+				5A0B8DC7D01A169C5C6AF645B07240FD /* MBTopicFilterItem.h in Headers */,
+				C1532F85903E8BC9926E3FC0A97D99B8 /* MBTrackManager.h in Headers */,
+				7B6C1B856B4D969E35E7B6B9ADC07F6A /* MBTrackOverlay.h in Headers */,
+				5D22F5234F335961C39D8F091CFBC52E /* MBTripRecorder.h in Headers */,
+				178B498CF1846726DF526BDBCE825FFC /* MBTripRecorderV2.h in Headers */,
+				2373BB1F6D07B124179D721D75809D4C /* MBUserCamera.h in Headers */,
+				FB44DE3BC3CE4B17D346370B9716C024 /* MBUtils.h in Headers */,
+				41FFBFBEB585232CA92E5F4E1D34ED82 /* MBVehicleInfo.h in Headers */,
+				A9790E28E9D2536F1642AAB6C07234F3 /* MBVehicleInfoAdvanced.h in Headers */,
+				3B89B200EE90C57E07599204612369BF /* MBVehicleRestrictionItem.h in Headers */,
+				52EEEBDA69892FD82D303D77D0CD281F /* MBWelcomeInfoCollector.h in Headers */,
+				F9B9B1364BC56EC4014662486EED925B /* MBWmr.h in Headers */,
+				7EA2C84A81EFE921260FE60E31CDF8E8 /* MBWmrBaseTypes.h in Headers */,
+				DEDAE5BAC266556486B980C65631B74C /* MBWmrNode.h in Headers */,
+				64CB4C1FB065E317D2345610B86461EF /* MBWorldManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4CF7A53AFE8275DDE075747E8245F97 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF8307B7346F4D3BA13C11AECFE6EDD0 /* FBSnapshotTestCase.h in Headers */,
+				1F84FE646CD1D7BAFFB58C243277AFF8 /* FBSnapshotTestCase-umbrella.h in Headers */,
+				640CCE9C3A28AA3CA15510899F9140EE /* FBSnapshotTestCasePlatform.h in Headers */,
+				2B88C28DD20CBFA7B3AEB21A365197FE /* FBSnapshotTestController.h in Headers */,
+				5558B876B579BC1E79BD3D2B19148329 /* UIApplication+StrictKeyWindow.h in Headers */,
+				8AE19756F0126FE92AF625E36F3D70FE /* UIImage+Compare.h in Headers */,
+				67F1963AA7C9EDB78127AD5F566A4949 /* UIImage+Diff.h in Headers */,
+				373413256658309F9053CE22BF62077E /* UIImage+Snapshot.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3552EC4838BC643C5CBF42F8ED7AA25D /* libNaviCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5529ACA9C1CE09B71C8BF92AE161085B /* Build configuration list for PBXNativeTarget "libNaviCore" */;
+			buildPhases = (
+				86712E96202E9E065988CA23BD421800 /* Headers */,
+				1779FBB4DCCC67EB7FDB9876C83AC6F5 /* Sources */,
+				BB8B1A0B61CE4375564910DFA19FBB35 /* Frameworks */,
+				D3C9983C2EF4AD12376972230BA22523 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libNaviCore;
+			productName = libNaviCore;
+			productReference = 4BFB625D3F78EF06312975D98EBEAD02 /* libNaviCore */;
+			productType = "com.apple.product-type.framework";
+		};
+		4292BBD6174C961B9C6F25D4C32A6CB2 /* Pods-libNaviCore_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C4137EECF88A2C9D96B343DF71DA6B7 /* Build configuration list for PBXNativeTarget "Pods-libNaviCore_Tests" */;
+			buildPhases = (
+				5E8BA6350AF952243EADD993352B740A /* Headers */,
+				71141EDEE4ACF55A87D5CBFEFB4C1BF1 /* Sources */,
+				AA1B1CEBB5F484F9AA43FF1AF93B9243 /* Frameworks */,
+				02FBF1227BF38AAC0EF1CECA39312C3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4900EE494C9724616187A520BF843AD /* PBXTargetDependency */,
+				C18514294EAF9078648AD92436AF38C1 /* PBXTargetDependency */,
+			);
+			name = "Pods-libNaviCore_Tests";
+			productName = Pods_libNaviCore_Tests;
+			productReference = 43632428D179F3CBA6A1C3502441F7FA /* Pods-libNaviCore_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		529B7E7CFAE5D4D84662434F638C26AB /* Pods-libNaviCore_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FEDCA680FECDF982BC5C54F12374873 /* Build configuration list for PBXNativeTarget "Pods-libNaviCore_Example" */;
+			buildPhases = (
+				4BCC402A595113D3E4E25B6350D680E5 /* Headers */,
+				FA8A555D8C91E40CD58D1C22B290F33A /* Sources */,
+				A169432C49CDE0837EED4CE649B84DD1 /* Frameworks */,
+				12566A8892496BDF9453B89B1016C60E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC56E801149EE483B1C40FEF7DFC45D2 /* PBXTargetDependency */,
+			);
+			name = "Pods-libNaviCore_Example";
+			productName = Pods_libNaviCore_Example;
+			productReference = 81B6F8EBBBBCE2090B33D2048F51595D /* Pods-libNaviCore_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28DAA9880679133EC375B7072B9AEABB /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
+			buildPhases = (
+				D4CF7A53AFE8275DDE075747E8245F97 /* Headers */,
+				EE210BFC37CDBA0645C09C3819F41723 /* Sources */,
+				E3B880388FF17A336FBF90E30E537508 /* Frameworks */,
+				194C9DCC4899F62F4FB7DDF15C987499 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBSnapshotTestCase;
+			productName = FBSnapshotTestCase;
+			productReference = 5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 292BF467F7F248E3C5A74E63F90ABCDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */,
+				3552EC4838BC643C5CBF42F8ED7AA25D /* libNaviCore */,
+				529B7E7CFAE5D4D84662434F638C26AB /* Pods-libNaviCore_Example */,
+				4292BBD6174C961B9C6F25D4C32A6CB2 /* Pods-libNaviCore_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02FBF1227BF38AAC0EF1CECA39312C3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12566A8892496BDF9453B89B1016C60E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		194C9DCC4899F62F4FB7DDF15C987499 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3C9983C2EF4AD12376972230BA22523 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1779FBB4DCCC67EB7FDB9876C83AC6F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15C547EE95C9125F55AAF0AB55FB500F /* iNaviCore in Sources */,
+				3570CD074000EA71FD77EC5534835677 /* iNaviCore in Sources */,
+				D1D8478ED3F5E76C93734F95A4E8EEB5 /* libNaviCore-dummy.m in Sources */,
+				E559B96F63A4728CFDA67AC037B70561 /* module.modulemap in Sources */,
+				ADEFA4D2E6E51D551FA70FC5E6B0FC10 /* navicore.gitinfo in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71141EDEE4ACF55A87D5CBFEFB4C1BF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE99084A823D52397C9C5973AE43E309 /* Pods-libNaviCore_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE210BFC37CDBA0645C09C3819F41723 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C67CBD15D9B5D0B7769B2F469478332 /* FBSnapshotTestCase.m in Sources */,
+				5BE525FF6FA14B999ED2CCC0AA4FA0CF /* FBSnapshotTestCase-dummy.m in Sources */,
+				30D475DF57C0C682A723231E7BCA0D14 /* FBSnapshotTestCasePlatform.m in Sources */,
+				C390C6005353FB986CB52F474CEF8588 /* FBSnapshotTestController.m in Sources */,
+				2975A09730FD83DC0897129A11EA6585 /* SwiftSupport.swift in Sources */,
+				74339C58AC4E5631FB8C0E662668A796 /* UIApplication+StrictKeyWindow.m in Sources */,
+				B52281F9F4340D4FC8ABB2FEB1FEC08E /* UIImage+Compare.m in Sources */,
+				CA54C09A12400567AFFCB407EEB7E154 /* UIImage+Diff.m in Sources */,
+				2CB61F6FA511CAACB43A50DC3A82E0DD /* UIImage+Snapshot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA8A555D8C91E40CD58D1C22B290F33A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				268AF2DFF4DC0F4D36614C1EC7214017 /* Pods-libNaviCore_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC56E801149EE483B1C40FEF7DFC45D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = libNaviCore;
+			target = 3552EC4838BC643C5CBF42F8ED7AA25D /* libNaviCore */;
+			targetProxy = B91FD27F62DF93D1F95FF285779D0DB7 /* PBXContainerItemProxy */;
+		};
+		C18514294EAF9078648AD92436AF38C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-libNaviCore_Example";
+			target = 529B7E7CFAE5D4D84662434F638C26AB /* Pods-libNaviCore_Example */;
+			targetProxy = E0C09E02534E284CAC7D6C505DE3DE35 /* PBXContainerItemProxy */;
+		};
+		E4900EE494C9724616187A520BF843AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSnapshotTestCase;
+			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
+			targetProxy = AE497A120CE9B4AF55281042615A4362 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A94BE3D0B6A29294DA8C8BF9C1570C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A722E0DFBB320C33AFC19B8D2B3F603 /* libNaviCore.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/libNaviCore/libNaviCore-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/libNaviCore/libNaviCore-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/libNaviCore/libNaviCore.modulemap";
+				PRODUCT_MODULE_NAME = libNaviCore;
+				PRODUCT_NAME = libNaviCore;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0CF977E736A9F0297ED689DCD07C3E1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1B53C0DC4BB6A4A7B7CF6C13DA3523E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30C07DF1298612103E61D3AFB123F331 /* Pods-libNaviCore_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-libNaviCore_Example/Pods-libNaviCore_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-libNaviCore_Example/Pods-libNaviCore_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5C2B46C6D3E85EC9FA1C6CAACF15ED81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E29BE9CA75732CD8ECCBC31F51D09847 /* libNaviCore.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/libNaviCore/libNaviCore-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/libNaviCore/libNaviCore-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/libNaviCore/libNaviCore.modulemap";
+				PRODUCT_MODULE_NAME = libNaviCore;
+				PRODUCT_NAME = libNaviCore;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		842C60C4F1EBC85F9C8FF97D39D120FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B34F49FAAD9BA6960AE1BEA3846291EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A91ED8B25E35E1137A07865982EA715F /* Pods-libNaviCore_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-libNaviCore_Example/Pods-libNaviCore_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-libNaviCore_Example/Pods-libNaviCore_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D8800708D48BDD788AF48FE790A83C68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BA0ABAD8890E4572BE9B45407A70CB4 /* Pods-libNaviCore_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-libNaviCore_Tests/Pods-libNaviCore_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-libNaviCore_Tests/Pods-libNaviCore_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E3C2D37CC9F3ACAD53555FA5686C1A16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37AB3FF2838BE693D5B73E536136F6A9 /* Pods-libNaviCore_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-libNaviCore_Tests/Pods-libNaviCore_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-libNaviCore_Tests/Pods-libNaviCore_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C4137EECF88A2C9D96B343DF71DA6B7 /* Build configuration list for PBXNativeTarget "Pods-libNaviCore_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3C2D37CC9F3ACAD53555FA5686C1A16 /* Debug */,
+				D8800708D48BDD788AF48FE790A83C68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28DAA9880679133EC375B7072B9AEABB /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				842C60C4F1EBC85F9C8FF97D39D120FF /* Debug */,
+				0CF977E736A9F0297ED689DCD07C3E1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FEDCA680FECDF982BC5C54F12374873 /* Build configuration list for PBXNativeTarget "Pods-libNaviCore_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B53C0DC4BB6A4A7B7CF6C13DA3523E6 /* Debug */,
+				B34F49FAAD9BA6960AE1BEA3846291EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5529ACA9C1CE09B71C8BF92AE161085B /* Build configuration list for PBXNativeTarget "libNaviCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C2B46C6D3E85EC9FA1C6CAACF15ED81 /* Debug */,
+				0A94BE3D0B6A29294DA8C8BF9C1570C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

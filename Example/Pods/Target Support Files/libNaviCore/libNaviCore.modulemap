@@ -1,0 +1,6 @@
+framework module libNaviCore {
+  umbrella header "libNaviCore-umbrella.h"
+
+  export *
+  module * { export * }
+}

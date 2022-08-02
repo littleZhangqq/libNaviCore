@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - libNaviCore (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - libNaviCore (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  libNaviCore:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  libNaviCore: 8dc4354e2c1e29ee30af4dc0161d4801742818d1
+
+PODFILE CHECKSUM: 5858fb61d7d2bfe4854adf6b16f76b2ec01d9cf0
+
+COCOAPODS: 1.11.3

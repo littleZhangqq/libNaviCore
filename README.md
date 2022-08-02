@@ -1,0 +1,2 @@
+# libNaviCore
+libNaviCore
